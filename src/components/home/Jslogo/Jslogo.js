@@ -11,6 +11,6 @@ const Jslogo = () => {
                     <span>Nov 3, 2019</span>
                 </div>
             </div>
-    )}
+    )};
 
 export default Jslogo;

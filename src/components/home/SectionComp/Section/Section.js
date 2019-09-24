@@ -12,7 +12,11 @@ const Section = ({isleft,imgUrl,text,title,buttonText,color,colorText,linkPath})
                 <div className={'textPart'}>
                     <h1>{title}<span style={{color:`${color}`}}>{colorText}</span></h1>
                     <p>{text}</p>
-                    <a href={linkPath} target="_blank"><button style={{borderColor:`${color}`}}>{buttonText}</button></a>
+                    <a href={linkPath} target="_blank">
+                        <button style={{borderColor:`${color}`}}>
+                            {buttonText}
+                        </button>
+                    </a>
                 </div>
             </div>
             :

@@ -2,39 +2,52 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
 .team_title{
-    margin: 60px 0;
-    font-size: 38px;
+    margin: 0 0 100px;
+    font-size: 60px;
+    font-family: starJediHollow;
     letter-spacing: 4px;
+    color: white;
 }
-.team_title span{    
-    font-family: Starjedi; 
+.team_title span{
+    font-family: Starjedi;
 }
 
 .member_info{
+    width: 220px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 
 .mem_img{
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 49px;
 }
 
 .name{
-    margin: 10px 0;
-    font-size: 18px;
+    max-width: 163px;
+    height: 68px;
+    text-align: center;
+    font-family: manrope;
+    font-weight: bold;
+    font-size: 24px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .position{
-    margin-top: 10px;
-    font-size: 11px;
-    width: 160px;
+    max-width: 219px;
+    font-weight: normal;
+    font-family: manrope;
+    font-size: 13px;
     text-align: center;
+    color: #c5c5c5;
 }

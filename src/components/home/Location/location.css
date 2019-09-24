@@ -1,8 +1,8 @@
 .galaxy_title{
-    margin: 80px 0 50px;    
+    margin-bottom: 120px;
     font-size: 38px;
     letter-spacing: 4px;
 }
-.galaxy_title span{    
+.galaxy_title span{
     font-family: Starjedi;
 }

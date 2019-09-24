@@ -1,0 +1,32 @@
+.section_container{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.imagePart{
+    flex: 50%;
+    background-repeat: no-repeat;
+}
+
+.textPart{
+    flex: 50%;
+}
+.textPart button{
+    cursor: pointer;
+}
+.textPart span{
+    font-family: Starjedi; 
+}
+.textPart h1{
+    font-size: 38px;
+    letter-spacing: 4px;
+}
+.textPart p{
+    padding-top: 20px;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    width: 361px;
+}
+

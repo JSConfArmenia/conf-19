@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.header_items {
+    display: flex;
+    width: 750px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_items a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    font-family: Calibri;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.header_button{
+    border: 1px solid red;
+    background: black;
+    padding: 20px;
+    height: 40px;
+}

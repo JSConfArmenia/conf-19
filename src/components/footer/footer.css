@@ -1,0 +1,74 @@
+.footer_image {
+    height: 600px;
+    width: 100%;
+}
+
+.footer_image img{
+    width: 100%;
+    background-size: cover;
+}
+.logo2{
+    width: 35%;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    line-height: 40px;
+}
+.social-icon{
+    width:54px;
+    height:40px;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin:7px;
+}
+
+.social_items{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    width: 260px;
+    justify-content: space-between;
+}
+
+.githubwhite{
+    background-image:url('../../images/githubwhite.png');   
+}
+
+.githubwhite:hover{
+    background-image:url('../../images/github.png');
+}
+.fbWhite{
+    background-image:url('../../images/fbwhite.png')
+}
+.fbWhite:hover{
+    background-image:url('../../images/fbred.png')
+}
+.twWhite{
+    background-image:url('../../images/twitwhite.png')
+}
+.twWhite:hover{
+    background-image:url('../../images/twetred.png')
+}
+.instwhite{
+    background-image:url('../../images/instwhite.png')
+}
+.instwhite:hover{
+    background-image:url('../../images/instred.png')
+}
+.youtubeRed{
+    background-image:url('../../images/youtubewhite.png')
+}
+.youtubeRed:hover{
+    background-image:url('../../images/youtubered.png')
+}
+.langArm, .langEnglish, .orange{
+    color:#FF4700;
+}
+.langArm, .langEnglish{
+    text-decoration: none;
+}

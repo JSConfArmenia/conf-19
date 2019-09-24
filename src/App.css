@@ -1,0 +1,32 @@
+@font-face {
+    font-family: jedies;
+    src: url(./components/Fonts/Starjhol.ttf);
+    }
+@font-face {
+    font-family: Starjedi;
+    src: url(./components/Fonts/Starjedi.ttf);
+}
+    
+@font-face {
+    font-family: STJEDISE;
+    src: url(./components/Fonts/Stjldbl1.ttf);
+    }
+  h1{
+      font-family: jedies;
+  }
+  
+  .textPart{
+      flex: 50%;
+      text-align: center;
+  }  
+  button{
+      outline: none;
+      border: none;
+      border:1px solid red;
+      background-color: rgba(0, 0, 0, 0.9);
+      padding:10px 17px;
+      color: #fff;
+      margin-top: 25px;
+  
+  }
+  

@@ -1,0 +1,35 @@
+.faq_info {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+
+.faq_title {
+    margin: 60px 0;
+    font-size: 38px;
+    letter-spacing: 4px;
+}
+.faq_title span{
+    font-family: Starjedi; 
+}
+
+.single_faq{
+    margin: 10px 0;
+    width: 510px;
+    color: #C5C5C5;
+}
+
+.single_faq_title{
+    margin: 10px 0;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+.single_faq_text{
+    font-size: 14px;
+    width: 84%;
+}

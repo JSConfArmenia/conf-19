@@ -8,13 +8,17 @@
     background-size: cover;
 }
 .logo2{
-    width: 35%;
     text-align: center;
+}
+
+.logo2 a img {
+    height: 81px;
 }
 
 .footer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: white;
     line-height: 40px;
@@ -31,12 +35,11 @@
     display: flex;
     align-items: center;
     margin: 25px;
-    width: 260px;
     justify-content: space-between;
 }
 
 .githubwhite{
-    background-image:url('../../images/githubwhite.png');   
+    background-image:url('../../images/githubwhite.png');
 }
 
 .githubwhite:hover{

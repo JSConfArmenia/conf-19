@@ -1,5 +1,5 @@
 import React from 'react';
-import {GoogleMap, withScriptjs, withGoogleMap} from "react-google-maps";
+import {GoogleMap, withScriptjs, withGoogleMap, Marker} from "react-google-maps";
 import './location.css';
 
 const mapStyles = [
@@ -187,14 +187,31 @@ const mapStyles = [
             }
         ]
     }
-]
+];
 
 const Map = () => {
     return (
         <GoogleMap
-            defaultZoom={21}
             defaultCenter={{lat: 40.1783632, lng: 44.5110651}}
+            defaultOptions={{
+                disableDefaultUI: true,
+                styles: mapStyles,
+                zoomControl: false,
+                mapTypeControl: false,
+                scaleControl: false,
+                streetViewControl: false,
+                rotateControl: false,
+                fullscreenControl: false,
+                draggable: false,
+                zoom: 16
+            }}
         >
+            <Marker
+                position={{
+                    lat: 40.1783632, // latitude to position the marker
+                    lng: 44.5110651 // longitude to position the marker
+                }}
+            />
         </GoogleMap>
     );
 };

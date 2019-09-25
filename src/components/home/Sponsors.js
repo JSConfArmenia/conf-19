@@ -18,8 +18,8 @@ const Sponsors = () => {
             'Armenia and get your company seen.\n' +
             'Become a JS Conf 2019 sponsor!'}
             textUrl={callForSponsorsImage}
-            buttonText={'Take my Money'}
-            linkPath={"#"}
+            buttonText={'Request Info'}
+            linkPath={"https://docs.google.com/forms/d/e/1FAIpQLSe4ZGNMILaX7BSXDBwQcFHBS4_NlQ4cSo79mRGNTA12Gia3fA/viewform"}
         />
     );
 };

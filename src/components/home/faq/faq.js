@@ -45,7 +45,10 @@ const faqs = [
     },
     {
         title: 'How to join the team?',
-        text: 'To help the team to make JS Conf Armenia 2019 happen please apply here to become a JS Conf droid volunteer!'
+        text: 'To help the team to make JS Conf Armenia 2019 happen please ' +
+            '<a target="_blank" ' +
+            'href="https://docs.google.com/forms/d/e/1FAIpQLSdcp6Yc6fOp4jvK8lMph9YJ_cxKviwRenEWoTTcwjszzzRKgg/viewform" ' +
+            'class="faq-link"> apply here </a> to become a JS Conf droid volunteer!'
     },
     {
         title: 'Where is it going to be held?',

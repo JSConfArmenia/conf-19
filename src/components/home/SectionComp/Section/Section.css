@@ -17,6 +17,23 @@
 .textPart{
     flex: 50%;
 }
+
+.callForJedies {
+    width: 383px;
+    height: 42px;
+    margin-bottom: 63px;
+}
+
+.callForJedies.sponsors {
+    width: 500px;
+    height: 33px;
+}
+
+.callForJedies.droid {
+    width: 406px;
+    height: 31px;
+}
+
 .textPart button {
     margin-top: 0;
     cursor: pointer;

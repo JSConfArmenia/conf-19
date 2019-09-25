@@ -9,12 +9,11 @@
 }
 
 .faq_title {
-    margin: 60px 0;
-    font-size: 38px;
-    letter-spacing: 4px;
+    margin: 0 0 57px;
+    width: 487px;
 }
 .faq_title span{
-    font-family: Starjedi; 
+    font-family: Starjedi;
 }
 
 .single_faq{
@@ -25,11 +24,17 @@
 
 .single_faq_title{
     margin: 10px 0;
-    font-size: 22px;
+    font-size: 24px;
     color: white;
     font-weight: 600;
 }
 .single_faq_text{
-    font-size: 14px;
+    font-size: 17px;
     width: 84%;
+    line-height: 1.88;
+}
+
+.faq-link {
+    color: #19b1ff;
+    text-decoration: none;
 }

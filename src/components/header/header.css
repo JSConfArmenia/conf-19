@@ -26,6 +26,6 @@
 .header_button{
     border: 1px solid red;
     background: black;
-    padding: 20px;
-    height: 40px;
+    height: 32px;
+    width: 151px;
 }

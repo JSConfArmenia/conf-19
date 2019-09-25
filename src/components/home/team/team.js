@@ -6,12 +6,13 @@ import m2 from '../../../images/member2.png';
 import m3 from '../../../images/member3.png';
 import m6 from '../../../images/member6.png';
 import m5 from '../../../images/member5.png';
+import galacticTeamImage from '../../../images/galactic-team@2x.png';
 
 
 const teamMembers = [
     {
         url: m1,
-        name: 'Alexander Adamyan',        
+        name: 'Alexander Adamyan',
         position: `Co-Founder at Simply Technologies`
     },
     {
@@ -40,9 +41,14 @@ const Team = () => {
     return (
         <div className={'toCenter'}>
 
-            <h1 className={'team_title'}>
-                GALACTIC <span style={{color: '#FF4700'}}>TEAM</span>
-            </h1>
+            <img
+                style={{
+                    width: '528px',
+                    height: '43px',
+                }}
+                src={galacticTeamImage}
+                className={'team_title'}
+                alt='Galactic team' />
 
             <div className={'galaxic_team'}>
                 {teamMembers.map((member, i) => {

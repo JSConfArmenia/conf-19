@@ -3,8 +3,8 @@ import './footer.css';
 import logo from "../../images/logo2.png";
 import fb from '../../images/footer.png';
 import {Link} from "react-router-dom";
-// import arm from '../../Files/arm.pdf';
-// import en from '../../Files/en.pdf';
+import armPress from '../../Files/JSConfAM19_AM.pdf';
+import enPress from '../../Files/JSConfAM19_EN.pdf';
 
 const Footer = () => {
     return (
@@ -19,31 +19,30 @@ const Footer = () => {
                     </div>
 
                     <div className={'social_items'}>
-                        <a href="#">
-                            <div className="social-icon githubwhite"></div>                        
+                        <a href="https://github.com/JSConfArmenia">
+                            <div className="social-icon githubwhite"></div>
                         </a>
-                        <a href="#">
+                        <a target="_blank" href="https://www.facebook.com/jsconf.am/">
                             <div className="social-icon fbWhite"></div>
-                        </a>  
-                        <a href="#">
-                            <div className="social-icon twWhite"></div>
-                        </a>                                                      
-                        <a href="#">
+                        </a>
+                        <a target="_blank" href="https://twitter.com/JSConfAM">
                             <div className="social-icon twWhite"></div>
                         </a>
-                        <a href="#">
+                        <a target="_blank" href="https://www.instagram.com/jsconf.am">
                             <div className="social-icon instwhite"></div>
                         </a>
-                        <a href="#">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCkzEOKU959F6_T0OaQBH4VQ">
                             <div className="social-icon youtubeRed"></div>
                             </a>
                     </div>
 
-                    <div>Press Release <a className="langArm" href="#">AM</a> / <a className="langEnglish" href="#">EN</a></div>
-                    <div>
-                        Design and branding by
-                        <span className="orange">@davidtiger</span>,coded in React.js by
-                        <span className="orange">@modularcoder</span>
+                    <div className='press-realise'>
+                        Press Release <a href={armPress} target='_blank' className="langArm">AM</a> / <a target='_blank' className="langEnglish" href={enPress}>EN</a>
+                    </div>
+                    <div className='design-and-branding'>
+                        Design and branding by &nbsp;
+                        <a target='_blank' href='https://www.behance.net/Davidtiger' className="orange">@davidtiger</a>, coded in React.js by &nbsp;
+                        <a target='_blank' href='https://github.com/JSConfArmenia' className="orange">our awesome collaborators</a>
                     </div>
                 </div>
             </div>

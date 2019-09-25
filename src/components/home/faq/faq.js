@@ -1,6 +1,6 @@
 import React from 'react';
 import './faq.css';
-
+import faqTitleImage from '../../../images/freaking-faq@2x.png';
 
 const faqs = [
     {
@@ -17,7 +17,7 @@ const faqs = [
     {
         title: 'Who are the speakers?',
         text: 'The confirmed speakers list is not available yet. Want to be one of them?\n' +
-                'Apply here to become a speaker.'
+                '<a class="faq-link" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScfpcg2SvaEuoqcZEPzAmuwG8-bI1SxRbcoCytxzeOruCOZlA/closedform"> Apply here </a> to become a speaker.'
     },
     {
         title: 'How much is the entry-ticket?',
@@ -37,7 +37,7 @@ const faqs = [
     },
     {
         title: 'Who are behind the JS Conf Armenia?',
-        text: 'To see the JS Conf Armenia team, please, click here.'
+        text: 'To see the JS Conf Armenia team, please, <a href="#team" class="faq-link"> click here</a>.'
     },
     {
         title: 'When is it going to take place?',
@@ -61,9 +61,7 @@ const faqs = [
 const Faq = () => {
     return (
         <div className={'toCenter'}>
-            <h1 className={'faq_title'}>
-                FREAKING <span style={{color: '#FF4700'}}>FAQ</span>
-            </h1>
+            <img src={faqTitleImage} className={'faq_title'} />
 
             <div className={'faq_info'}>
 
@@ -71,7 +69,7 @@ const Faq = () => {
                     return (
                         <div className={'single_faq'} key={faq.title+i}>
                             <div className={'single_faq_title'}>{faq.title}</div>
-                            <div className="single_faq_text">{faq.text}</div>
+                            <div dangerouslySetInnerHTML={{ __html: faq.text}} className="single_faq_text"></div>
                         </div>
                     )
                 })}

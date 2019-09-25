@@ -52,7 +52,7 @@ const Header = () => {
                         <Link to={'#'} onClick={()=>{
                             scrollToElement('faq')
                         }}>FAQ</Link>
-                        <Link to={'#'} className={'header_button'}>Apply to Speak</Link>
+                        <a target='_blank' href={'https://docs.google.com/forms/d/e/1FAIpQLScfpcg2SvaEuoqcZEPzAmuwG8-bI1SxRbcoCytxzeOruCOZlA/closedform'} className={'header_button'}>Apply to Speak</a>
                     </div>
                 </div>
             </div>

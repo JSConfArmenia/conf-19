@@ -1,6 +1,8 @@
 import React from 'react';
 import {GoogleMap, withScriptjs, withGoogleMap, Marker} from "react-google-maps";
 import './location.css';
+import ourLocationTitleImage from '../../../images/a-galaxy-far-far-awa@2x.png';
+import pinIcon from '../../../images/pin.svg';
 
 const mapStyles = [
     {
@@ -192,7 +194,7 @@ const mapStyles = [
 const Map = () => {
     return (
         <GoogleMap
-            defaultCenter={{lat: 40.1783632, lng: 44.5110651}}
+            defaultCenter={{lat: 40.177950, lng: 44.510405}}
             defaultOptions={{
                 disableDefaultUI: true,
                 styles: mapStyles,
@@ -207,9 +209,10 @@ const Map = () => {
             }}
         >
             <Marker
+                icon={pinIcon}
                 position={{
-                    lat: 40.1783632, // latitude to position the marker
-                    lng: 44.5110651 // longitude to position the marker
+                    lat: 40.177950, // latitude to position the marker
+                    lng: 44.510405 // longitude to position the marker
                 }}
             />
         </GoogleMap>
@@ -221,13 +224,19 @@ const WrappedMap = withScriptjs(withGoogleMap(Map));
 export default function Location() {
     return (
         <div className={'toCenter'}>
-            <h1 className={'galaxy_title'}>
-                A <span style={{color: '#19B1FF'}}>GALAXY</span> FAR FAR AWAY
-            </h1>
+            <img
+                style={{
+                    width:' 908px',
+                    height: '44px',
+                }}
+                src={ourLocationTitleImage}
+                className={'galaxy_title'}
+                alt='Our location' />
             <div
                 style={{
                     width: '960px',
                     height: '640px',
+                    marginBottom: '120px',
                 }}>
                 <WrappedMap
                     googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDrPSNUf_6iI95MrqwlcT7njNrt6rU0CAE`}

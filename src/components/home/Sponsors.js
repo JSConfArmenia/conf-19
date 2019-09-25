@@ -1,6 +1,7 @@
 import React from 'react';
 import Section from "./SectionComp/Section/Section";
 import sponsor from "../../images/Illustrations1/Council.png";
+import callForSponsorsImage from '../../images/call-for-sponsors@2x.png';
 
 
 
@@ -16,6 +17,7 @@ const Sponsors = () => {
             'companies, be at one of the biggest IT events in\n' +
             'Armenia and get your company seen.\n' +
             'Become a JS Conf 2019 sponsor!'}
+            textUrl={callForSponsorsImage}
             buttonText={'Take my Money'}
             linkPath={"#"}
         />

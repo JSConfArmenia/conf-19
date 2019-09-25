@@ -1,5 +1,6 @@
 import React from 'react';
 import './jobs.css';
+import jobsTitleImage from '../../../images/galactic-jobs@2x.png';
 
 
 const galacticJobs = [
@@ -71,9 +72,10 @@ const Jobs = () => {
         <div className={'toCenter'}>
 
 
-            <h1 className={'job_title'}>
-                Galactic <span style={{color: '#15C70E'}}>JOBS</span>
-            </h1>
+            <img
+                src={jobsTitleImage}
+                className={'job_title'}
+                alt={'Job postings'} />
 
             <div className={'job_info'}>
 
@@ -81,7 +83,7 @@ const Jobs = () => {
                     return (
                         <div className={'single_job'} key={job.title + i}>
 
-                            {                                
+                            {
                                     <>
                                         <a href={job.link}> <div className={'single_job_title'}>
                                             {job.title}

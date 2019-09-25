@@ -1,8 +1,9 @@
 import React from 'react';
 import './Section.css';
 import {Link} from "react-router-dom";
+import callForJedies from '../../../../images/call-for-jedies@2x.png';
 
-const Section = ({isleft,imgUrl,text,title,buttonText,color,colorText,linkPath}) => {
+const Section = ({isleft, isDroid, imgUrl,textUrl, text, title,buttonText,color,colorText,linkPath}) => {
     return (
         isleft ?
             <div className={'section_container'}>
@@ -10,7 +11,7 @@ const Section = ({isleft,imgUrl,text,title,buttonText,color,colorText,linkPath})
                      <img src={imgUrl} alt="img"/>
                 </div>
                 <div className={'textPart'}>
-                    <h1>{title}<span style={{color:`${color}`}}>{colorText}</span></h1>
+                    <img className={`callForJedies${isDroid ? ' droid' : ''}`} src={textUrl}  alt="Call For Jedies"/>
                     <p>{text}</p>
                     <a href={linkPath} target="_blank">
                         <button style={{borderColor:`${color}`}}>
@@ -22,7 +23,7 @@ const Section = ({isleft,imgUrl,text,title,buttonText,color,colorText,linkPath})
             :
             <div className={'section_container'}>
                 <div className={'textPart'}>
-                    <h1>{title}<span style={{color:`${color}`}}>{colorText}</span></h1>
+                    <img className='callForJedies sponsors' src={textUrl}  alt="Call For Jedies"/>
                     <p>{text}</p>
                     <a href={linkPath} target="_blank"><button style={{borderColor:`${color}`}}>{buttonText}</button></a>
                 </div>

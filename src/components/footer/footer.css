@@ -23,6 +23,19 @@
     color: white;
     line-height: 40px;
 }
+
+.press-realise {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: manrope;
+}
+
+.design-and-branding {
+    font-family: manrope;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .social-icon{
     width:54px;
     height:40px;
@@ -71,6 +84,7 @@
 }
 .langArm, .langEnglish, .orange{
     color:#FF4700;
+    text-decoration: none;
 }
 .langArm, .langEnglish{
     text-decoration: none;

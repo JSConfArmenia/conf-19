@@ -1,7 +1,7 @@
 .job_title {
-    margin: 60px 0;
-    font-size: 38px;
-    letter-spacing: 4px;
+    margin: 0 0 60px;
+    width: 520px;
+    height: 46px;
 }
 
 .single_job{
@@ -10,15 +10,19 @@
     color: #C5C5C5;
 }
 .single_job a{
-    text-decoration: none;    
+    text-decoration: none;
 }
 .companyName{
     color: #C5C5C5;
+    font-family: manrope;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .single_job_title{
-    margin: 15px 0;
-    font-size: 22px;
+    font-family: manrope;
+    margin: 0 0 10px;
+    font-size: 24px;
     color: white;
 }
 
@@ -31,7 +35,7 @@
     margin-bottom: 100px;
 }
 .job_title span{
-    font-family: Starjedi; 
+    font-family: Starjedi;
 }
 .single_job:hover .single_job_title{
     color: #FF4700;

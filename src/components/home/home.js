@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div className={'wrapper'}>
             <Jslogo/>
-            <JsConf/>          
+            <JsConf/>
             <Element name={'speakers'}>
                 <Speakers/>
             </Element>
@@ -28,17 +28,19 @@ const Home = () => {
                 <Droids/>
             </Element>
 
-            <Element name={'team'}>
+            <Element id='team' name={'team'}>
                 <Team/>
             </Element>
             <Element name={'map'}>
                 <Location/>
             </Element>
-            {/* <Jobs/> */}
+            {/*<Element name={'job'}>*/}
+            {/*    <Jobs/>*/}
+            {/*</Element>*/}
             <Element name={'faq'}>
                 <Faq/>
             </Element>
-            
+
         </div>
     );
 };

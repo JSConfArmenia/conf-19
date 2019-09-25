@@ -19,7 +19,7 @@ const Droids = () => {
             'memories? Here you go, apply ahead!'}
             textUrl={callForDroids}
             buttonText={'Become a Droid'}
-            linkPath={"#"}
+            linkPath={"https://docs.google.com/forms/d/e/1FAIpQLSdcp6Yc6fOp4jvK8lMph9YJ_cxKviwRenEWoTTcwjszzzRKgg/viewform"}
         />
     );
 };

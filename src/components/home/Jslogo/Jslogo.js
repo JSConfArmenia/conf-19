@@ -8,7 +8,7 @@ const Jslogo = () => {
                 <img src={Jsmainlogo} alt="logo" />
                 <div className="dateAndPlace">
                     <span>Marriott Armenia</span>
-                    <span>Nov 3, 2019</span>
+                    <span>Nov 30, 2019</span>
                 </div>
             </div>
     )};

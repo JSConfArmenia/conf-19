@@ -29,7 +29,9 @@ const Header = () => {
                         </Link>
                     </div>
                     <div className={'header_items'}>
-                        <Link to={'#'}>About</Link>
+                        <Link to={'#'} onClick={()=>{
+                            scrollToElement('rotateted_text')
+                        }}>About</Link>
                         {/* <Link to={'#'}>Schedule</Link> */}
 
                         <Link to={'#'} onClick={()=>{

@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build && echo 2019.jsconf.am > ./build/CNAME  && gh-pages -d build --repo git@github.com:JSConfArmenia/conf-19.git --branch gh-pages",
-    "deployMain": "npm run build && echo jsconf.am > ./build/CNAME  && gh-pages -d build --repo git@github.com:JSConfArmenia/conf-19.git --branch gh-pages"
+    "deployMain": "npm run build && echo jsconf.am > ./build/CNAME  && gh-pages -d build --repo https://github.com/JSConfArmenia/conf-19.git --branch gh-pages"
   },
   "eslintConfig": {
     "extends": "react-app"

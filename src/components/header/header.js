@@ -30,7 +30,7 @@ const Header = () => {
                     </div>
                     <div className={'header_items'}>
                         <Link to={'#'}>About</Link>
-                        <Link to={'#'}>Schedule</Link>
+                        {/* <Link to={'#'}>Schedule</Link> */}
 
                         <Link to={'#'} onClick={()=>{
                             scrollToElement('speakers')

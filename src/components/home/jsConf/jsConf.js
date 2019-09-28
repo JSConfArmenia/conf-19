@@ -1,6 +1,6 @@
 import React from 'react';
 import './jsConf.css';
-import aboutTextImage from '../../../images/about.svg';
+import aboutTextImage from '../../../images/about.png';
 
 const JsConf = () => {
     return (

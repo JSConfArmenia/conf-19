@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9dc83bb.chunk.css",
-    "main.js": "/static/js/main.35a9ce9f.chunk.js",
-    "main.js.map": "/static/js/main.35a9ce9f.chunk.js.map",
+    "main.css": "/static/css/main.761e486d.chunk.css",
+    "main.js": "/static/js/main.c36df44f.chunk.js",
+    "main.js.map": "/static/js/main.c36df44f.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.b52bf3a8.js",
     "runtime~main.js.map": "/static/js/runtime~main.b52bf3a8.js.map",
     "static/js/2.d2cd6654.chunk.js": "/static/js/2.d2cd6654.chunk.js",
     "static/js/2.d2cd6654.chunk.js.map": "/static/js/2.d2cd6654.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f23b39815dd0f109581961cce7c01e77.js": "/precache-manifest.f23b39815dd0f109581961cce7c01e77.js",
+    "precache-manifest.706c390b1f5aff1a9b934b48acbe0535.js": "/precache-manifest.706c390b1f5aff1a9b934b48acbe0535.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b9dc83bb.chunk.css.map": "/static/css/main.b9dc83bb.chunk.css.map",
+    "static/css/main.761e486d.chunk.css.map": "/static/css/main.761e486d.chunk.css.map",
     "static/media/Council.png": "/static/media/Council.68b92aa9.png",
     "static/media/Droids.png": "/static/media/Droids.d2775426.png",
     "static/media/JSConfAM19_AM.pdf": "/static/media/JSConfAM19_AM.cf766cc5.pdf",
@@ -19,7 +19,7 @@
     "static/media/Jedies.png": "/static/media/Jedies.c9b58ee3.png",
     "static/media/App.css": "/static/media/regular.700cae87.otf",
     "static/media/a-galaxy-far-far-awa@2x.png": "/static/media/a-galaxy-far-far-awa@2x.617a2330.png",
-    "static/media/about.svg": "/static/media/about.8d38f102.svg",
+    "static/media/about.png": "/static/media/about.b612dd7e.png",
     "static/media/index.css": "/static/media/bg.ced6e2b6.png",
     "static/media/call-for-droids@2x.png": "/static/media/call-for-droids@2x.1289575a.png",
     "static/media/call-for-jedies@2x.png": "/static/media/call-for-jedies@2x.67e3c001.png",
@@ -34,6 +34,6 @@
     "static/media/member3.png": "/static/media/member3.f0a96520.png",
     "static/media/member5.png": "/static/media/member5.18d7451e.png",
     "static/media/member6.png": "/static/media/member6.9f411756.png",
-    "static/media/pin.svg": "/static/media/pin.f2ae3e0c.svg"
+    "static/media/pin.svg": "/static/media/pin.978ff3d7.svg"
   }
 }

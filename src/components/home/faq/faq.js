@@ -56,7 +56,7 @@ const faqs = [
     },
     {
         title: 'Who supports JS Conf Armenia?',
-        text: 'To learn about our sponsors and partners, please, click here.'
+        text: 'To learn about our sponsors and partners, please, <a href="#sponsors" class="faq-link">click here</a>.'
     },
 ];
 

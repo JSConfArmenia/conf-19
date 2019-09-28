@@ -20,7 +20,7 @@ const Home = () => {
                 <Speakers/>
             </Element>
 
-            <Element name={'sponsors'}>
+            <Element id='sponsors' name={'sponsors'}>
                 <Sponsors/>
             </Element>
 

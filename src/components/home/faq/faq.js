@@ -60,10 +60,9 @@ const faqs = [
     },
     {
         title: 'What is the conference code of conduct?',
-        text: 'All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following <a href="https://github.com/JSConfArmenia/conf-19/blob/master/CODE_OF_CONDUCT.md" class="faq-link">code of conduct</a>.'
+        text: 'All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following <a class="faq-link" href="https://github.com/JSConfArmenia/conf-19/blob/master/CODE_OF_CONDUCT.md" class="faq-link">code of conduct</a>.'
     },
 ];
-
 
 const Faq = () => {
     return (

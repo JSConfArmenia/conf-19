@@ -9,13 +9,17 @@ import Speakers from "./Speakers";
 import Droids from "./droids";
 import Location from "./Location/location";
 import Logo from './Jslogo/Jslogo'
-import Jslogo from './Jslogo/Jslogo'
+import Jslogo from './Jslogo/Jslogo';
+import Jedies from "./jedies";
 
 const Home = () => {
     return (
         <div className={'wrapper'}>
             <Jslogo/>
             <JsConf/>
+            <Element name='jedies'>
+                <Jedies />
+            </Element>
             <Element name={'speakers'}>
                 <Speakers/>
             </Element>

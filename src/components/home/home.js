@@ -11,6 +11,7 @@ import Location from "./Location/location";
 import Logo from './Jslogo/Jslogo'
 import Jslogo from './Jslogo/Jslogo';
 import Jedies from "./jedies";
+import Companies from "./Companies";
 
 const Home = () => {
     return (
@@ -23,8 +24,10 @@ const Home = () => {
             <Element name={'speakers'}>
                 <Speakers/>
             </Element>
-
-            <Element id='sponsors' name={'sponsors'}>
+            <Element name='companies'>
+                <Companies/>
+            </Element>
+            <Element id='sponsors' name={'Companies'}>
                 <Sponsors/>
             </Element>
 

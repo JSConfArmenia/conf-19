@@ -24,7 +24,7 @@ class Index extends Component {
             },
             {
                 isleft: false,
-                name: 'sponsors',
+                name: 'Companies',
                 image: sponsor,
                 title: 'Sponsors',
                 color: '#15C70E',

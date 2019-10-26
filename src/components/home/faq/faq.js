@@ -56,11 +56,11 @@ const faqs = [
     },
     {
         title: 'Who supports JS Conf Armenia?',
-        text: 'To learn about our sponsors and partners, please, <a href="#sponsors" class="faq-link">click here</a>.'
+        text: 'To learn about our Companies and partners, please, <a href="#Companies" class="faq-link">click here</a>.'
     },
     {
         title: 'What is the conference code of conduct?',
-        text: 'All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following <a class="faq-link" href="https://github.com/JSConfArmenia/conf-19/blob/master/CODE_OF_CONDUCT.md" class="faq-link">code of conduct</a>.'
+        text: 'All attendees, speakers, Companies and volunteers at our conference are required to agree with the following <a class="faq-link" href="https://github.com/JSConfArmenia/conf-19/blob/master/CODE_OF_CONDUCT.md" class="faq-link">code of conduct</a>.'
     },
 ];
 

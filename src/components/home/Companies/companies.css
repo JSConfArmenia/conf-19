@@ -1,0 +1,99 @@
+.companies-wrapper  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    margin-bottom: 120px;
+}
+
+.companies-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.company-block {
+    height: 186px;
+    padding: 24px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.company-block:last-child {
+    margin-bottom: 0;
+}
+
+.company-title {
+    width: 118px;
+    height: 68px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: bold;
+    color: #c5c5c5;
+    line-height: 35px;
+    margin-right: 167px;
+}
+
+.company-logos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.general-logo {
+    width: 600px;
+    height: auto;
+    line-height: 0;
+}
+
+.gold-logo {
+    width: 400px;
+    height: auto;
+    line-height: 0;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.gold-logo:nth-child(odd) {
+    margin-left: 0;
+}
+
+.silver-logo {
+    width: 270px;
+    height: auto;
+    line-height: 0;
+    margin-left: 25px;
+    margin-bottom: 47px;
+}
+
+.silver-logo:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.starter-company.company-block {
+    align-items: center;
+}
+
+.starter-logo {
+    height: 62px;
+    line-height: 0;
+    width: auto;
+}
+
+.partners.company-block {
+    align-items: center;
+}
+
+.partner-logo {
+    height: 62px;
+    line-height: 0;
+    width: auto;
+}
+
+.partner-logo:first-child {
+    margin-right: 30px  ;
+}

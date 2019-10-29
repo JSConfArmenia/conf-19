@@ -40,12 +40,10 @@ h1 {
 }
 
 button {
-    outline: none;
     border: none;
     border: 1px solid red;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 10px 17px;
     color: #fff;
     margin-top: 25px;
-
 }

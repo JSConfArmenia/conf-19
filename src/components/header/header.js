@@ -1,64 +1,35 @@
-import React from 'react';
-import './header.css';
+import React, {useState, useRef} from 'react';
 import {Link} from "react-router-dom";
+import FocusLock from 'react-focus-lock';
+import './header.css';
 import logo from '../../images/logo.png'
-import {scroller} from 'react-scroll';
+import Burger from './burger';
+import Menu from './menu';
+import {useOnClickOutside} from '../../hooks';
 
 const Header = () => {
+  const initialState = false;
+  const [open, setOpen] = useState(initialState);
+  const node = useRef();
+  const menuId = 'main-menu';
 
+  useOnClickOutside(node, () => setOpen(false));
 
-    const scrollToElement = (element) => {
-        scroller.scrollTo(element, {
-            duration: 1500,
-            delay: 100,
-            smooth: true
-        })
-    };
-
-    return (
+  return (
         <div>
             <div className={'wrapper'}>
                 <div className={'header'}>
-                    <div style={{
-                        display: 'flex',
-                        flexGrow: '1',
-                        alignItems: 'center',
-                    }}>
+                    <div>
                         <Link to={'/'}>
                             <img src={logo} alt="img"/>
                         </Link>
                     </div>
-                    <div className={'header_items'}>
-                        <Link to={'#'} onClick={()=>{
-                            scrollToElement('rotateted_text')
-                        }}>About</Link>
-                        {/* <Link to={'#'}>Schedule</Link> */}
 
-                        <Link to={'#'} onClick={()=>{
-                            scrollToElement('speakers')
-                        }}>Speakers</Link>
-
-                        <Link to={'#'} onClick={()=>{
-                            scrollToElement('sponsors')
-                        }}>Sponsors</Link>
-
-                        <Link to={'#'} onClick={()=>{
-                            scrollToElement('team')
-                        }}>
-                            Team
-                        </Link>
-                        <Link to={'#'} onClick={()=>{
-                            scrollToElement('map')
-                        }}>Location</Link>
-
-                        <Link to={'#'} onClick={()=>{
-                            scrollToElement('faq')
-                        }}>FAQ</Link>
-                        <a target='_blank' rel='noopener noreferrer' href={'https://github.com/JSConfArmenia/conf-19/blob/master/CODE_OF_CONDUCT.md'} onClick={()=>{
-                       
-                        }}>Code of Conduct</a>
-
-                        <a target='_blank' rel='noopener noreferrer' href={'https://docs.google.com/forms/d/e/1FAIpQLScfpcg2SvaEuoqcZEPzAmuwG8-bI1SxRbcoCytxzeOruCOZlA/closedform'} className={'header_button'}>Apply to Speak</a>
+                    <div ref={node}>
+                        <FocusLock disabled={!open}>
+                            <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
+                            <Menu open={open} setOpen={setOpen} id={menuId} />
+                        </FocusLock>
                     </div>
                 </div>
             </div>

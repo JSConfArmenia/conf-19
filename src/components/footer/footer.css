@@ -89,3 +89,24 @@
 .langArm, .langEnglish{
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .footer_image {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logo2 a img {
+    width: 90%;
+    height: auto;
+  }
+
+  .social_items {
+    margin: 25px 0 25px 0;
+  }
+
+  .design-and-branding {
+    width: 90%;
+  }
+}

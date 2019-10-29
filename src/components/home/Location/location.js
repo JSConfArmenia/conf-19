@@ -225,19 +225,10 @@ export default function Location() {
     return (
         <div className={'toCenter'}>
             <img
-                style={{
-                    width:' 908px',
-                    height: '44px',
-                }}
                 src={ourLocationTitleImage}
                 className={'galaxy_title'}
                 alt='Our location' />
-            <div
-                style={{
-                    width: '960px',
-                    height: '640px',
-                    marginBottom: '120px',
-                }}>
+            <div className='gm-wrapper'>
                 <WrappedMap
                     googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDrPSNUf_6iI95MrqwlcT7njNrt6rU0CAE`}
                     loadingElement={<div style={{height: `100%`}}/>}

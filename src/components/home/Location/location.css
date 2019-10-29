@@ -2,7 +2,35 @@
     margin-bottom: 120px;
     font-size: 38px;
     letter-spacing: 4px;
+    width: 908px;
+    height: 44px;
 }
+
 .galaxy_title span{
     font-family: Starjedi;
+}
+
+.gm-wrapper {
+  width: 960px;
+  height: 640px;
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .galaxy_title {
+    width: 90%;
+    height: auto;
+    margin-bottom: 60px;
+  }
+
+  .map, .gm-wrapper {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .gm-wrapper {
+    width: 100%;
+    height: 320px;
+  }
 }

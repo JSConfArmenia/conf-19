@@ -11,7 +11,10 @@
     font-family: starJediHollow;
     letter-spacing: 4px;
     color: white;
+    width: 528px;
+    height: 43px;
 }
+
 .team_title span{
     font-family: Starjedi;
 }
@@ -50,4 +53,35 @@
     font-size: 13px;
     text-align: center;
     color: #c5c5c5;
+}
+
+@media screen and (max-width: 768px) {
+  .team_title {
+    width: 90%;
+    height: auto;
+  }
+
+  .galaxic_team {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .member_info {
+    width: 50%;
+    justify-content: center;
+  }
+
+  .member_info:not(:last-of-type) {
+    margin-bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .galaxic_team {
+    flex-direction: column;
+  }
+
+  .member_info {
+    width: 80%;
+  }
 }

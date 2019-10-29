@@ -54,11 +54,11 @@ const Header = () => {
                         <Link to={'#'} onClick={()=>{
                             scrollToElement('faq')
                         }}>FAQ</Link>
-                        <a target='_blank' href={'https://github.com/JSConfArmenia/conf-19/blob/master/CODE_OF_CONDUCT.md'} onClick={()=>{
+                        <a target='_blank' rel='noopener noreferrer' href={'https://github.com/JSConfArmenia/conf-19/blob/master/CODE_OF_CONDUCT.md'} onClick={()=>{
                        
                         }}>Code of Conduct</a>
 
-                        <a target='_blank' href={'https://docs.google.com/forms/d/e/1FAIpQLScfpcg2SvaEuoqcZEPzAmuwG8-bI1SxRbcoCytxzeOruCOZlA/closedform'} className={'header_button'}>Apply to Speak</a>
+                        <a target='_blank' rel='noopener noreferrer' href={'https://docs.google.com/forms/d/e/1FAIpQLScfpcg2SvaEuoqcZEPzAmuwG8-bI1SxRbcoCytxzeOruCOZlA/closedform'} className={'header_button'}>Apply to Speak</a>
                     </div>
                 </div>
             </div>

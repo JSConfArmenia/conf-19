@@ -57,7 +57,7 @@ const Team = () => {
                         <div className={'member_info'} key={i}>
 
                             <div className={'mem_img'}>
-                                <img src = {member.url } />
+                                <img src = {member.url } alt={member.name} />
                             </div>
 
                             <h2 className={'name'}>{member.name}</h2>

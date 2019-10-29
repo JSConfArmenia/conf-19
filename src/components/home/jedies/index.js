@@ -95,8 +95,8 @@ const Jedies = () => (
         </h1>
         <div className='jedies-section-wrapper'>
             {
-                jediesList.map(jedi => (
-                    <div className='jedi-person'>
+                jediesList.map((jedi, index) => (
+                    <div className='jedi-person' key={index}>
                         <div className='jedi-image'>
                             <img src={jedi.image} alt={jedi.name}/>
                         </div>
@@ -111,7 +111,7 @@ const Jedies = () => (
                                 {
                                     !!jedi.socialLinks.github && (
                                         <div className='jedi-section-social'>
-                                            <a target='_blank' href={jedi.socialLinks.github}>
+                                            <a target='_blank' rel='noopener noreferrer' href={jedi.socialLinks.github}>
                                                 <img src={githubIcon} alt="github"/>
                                             </a>
                                         </div>
@@ -120,7 +120,7 @@ const Jedies = () => (
                                 {
                                     !!jedi.socialLinks.linkedIn && (
                                         <div className='jedi-section-social'>
-                                            <a target='_blank' href={jedi.socialLinks.linkedIn}>
+                                            <a target='_blank' rel='noopener noreferrer' href={jedi.socialLinks.linkedIn}>
                                                 {/*TODO: update this image src to show linkedin icon*/}
                                                 <img src={linkedInIcon} alt="linkedIn"/>
                                             </a>
@@ -130,7 +130,7 @@ const Jedies = () => (
                                 {
                                     !!jedi.socialLinks.twitter && (
                                         <div className='jedi-section-social'>
-                                            <a target='_blank' href={jedi.socialLinks.twitter}>
+                                            <a target='_blank' rel='noopener noreferrer' href={jedi.socialLinks.twitter}>
                                                 <img src={twitterIcon} alt="twitter"/>
                                             </a>
                                         </div>

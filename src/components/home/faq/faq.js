@@ -17,7 +17,7 @@ const faqs = [
     {
         title: 'Who are the speakers?',
         text: 'The confirmed speakers list is not available yet. Want to be one of them?\n' +
-                '<a class="faq-link" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScfpcg2SvaEuoqcZEPzAmuwG8-bI1SxRbcoCytxzeOruCOZlA/closedform"> Apply here </a> to become a speaker.'
+                '<a class="faq-link" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScfpcg2SvaEuoqcZEPzAmuwG8-bI1SxRbcoCytxzeOruCOZlA/closedform"> Apply here </a> to become a speaker.'
     },
     {
         title: 'How much is the entry-ticket?',
@@ -46,7 +46,7 @@ const faqs = [
     {
         title: 'How to join the team?',
         text: 'To help the team to make JS Conf Armenia 2019 happen please ' +
-            '<a target="_blank" ' +
+            '<a target="_blank" rel="noopener noreferrer" ' +
             'href="https://docs.google.com/forms/d/e/1FAIpQLSdcp6Yc6fOp4jvK8lMph9YJ_cxKviwRenEWoTTcwjszzzRKgg/viewform" ' +
             'class="faq-link"> apply here </a> to become a JS Conf droid volunteer!'
     },
@@ -67,7 +67,7 @@ const faqs = [
 const Faq = () => {
     return (
         <div className={'toCenter'}>
-            <img src={faqTitleImage} className={'faq_title'} />
+            <img src={faqTitleImage} className={'faq_title'} alt='Freaking FAQ' />
 
             <div className={'faq_info'}>
 

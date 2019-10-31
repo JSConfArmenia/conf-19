@@ -1,26 +1,8 @@
 .header {
     width: 100%;
     display: flex;
-    justify-content: right;
-}
-.header_items {
-    display: flex;
-    width: 750px;
-    padding: 5px;
     justify-content: space-between;
-    align-items: center;
-}
-
-.header_items a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 14px;
-    font-weight: normal;
-    font-family: manrope;
-    text-decoration: none;
-    margin: 5px;
+    overflow-x: hidden;
 }
 
 .header_button{
@@ -28,4 +10,10 @@
     background: black;
     height: 32px;
     width: 151px;
+}
+
+@media screen and (max-width: 425px) {
+  .header img {
+    width: 60vw;
+  }
 }

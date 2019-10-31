@@ -97,3 +97,51 @@
 .partner-logo:first-child {
     margin-right: 30px  ;
 }
+
+@media screen and (max-width: 768px) {
+  .companies-wrapper,
+  .companies-blocks {
+    width: 100%;
+  }
+
+  .company-block {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .company-title {
+    width: auto;
+    margin-right: 0;
+    margin: 0 auto;
+  }
+
+  .company-logos {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .general-logo {
+    width: 90%;
+  }
+
+  .gold-logo {
+    width: 75%;
+  }
+
+  .silver-logo {
+    width: 60%;
+  }
+
+  .starter-logo,
+  .partner-logo {
+    width: 50%;
+    height: auto;
+  }
+
+  .partner-logo:first-child {
+    margin-bottom: 30px;
+  }
+}

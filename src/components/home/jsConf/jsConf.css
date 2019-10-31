@@ -13,3 +13,14 @@
     height: 320px;
     line-height: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .rotateted_text {
+    height: auto;
+  }
+
+  .rotateted_text img {
+    width: 95%;
+    height: auto;
+  }
+}

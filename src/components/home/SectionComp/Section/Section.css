@@ -64,3 +64,31 @@
     color: #c5c5c5;
 }
 
+@media screen and (max-width: 768px) {
+  .section_container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .imagePart > img {
+    width: 80vw;
+  }
+
+  .textPart {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .callForJedies, .callForJedies.droid {
+    width: 80vw;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .textPart > p {
+    width: 80vw;
+  }
+}
+

@@ -38,3 +38,9 @@
     color: #19b1ff;
     text-decoration: none;
 }
+
+@media screen and (max-width: 425px) {
+  .faq_title {
+    width: 90%;
+  }
+}

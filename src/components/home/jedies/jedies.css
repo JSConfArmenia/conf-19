@@ -69,3 +69,46 @@
     cursor: pointer;
     margin-right: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .jedies-section-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .jedi-person {
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+
+  .jedi-image {
+    width: 30vw;
+    height: 30vw;
+    margin-right: 0;
+  }
+
+  .jedi-section-content {
+    width: 80%;
+  }
+
+  .jedi-section-content > .header,
+  .jedi-section-content > .content {
+    text-align: center;
+    width: 100%;
+  }
+
+  .jedi-section-content > .social-buttons {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .jedies-section-wrapper {
+    flex-direction: column;
+  }
+
+  .jedi-person {
+    width: 100%;
+  }
+}

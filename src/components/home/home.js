@@ -18,23 +18,21 @@ const Home = () => {
         <div className={'wrapper'}>
             <Jslogo/>
             <JsConf/>
-            <Element name='jedies'>
+            <Element id='jedies' name={'jedies'}>
                 <Jedies />
             </Element>
-            <Element name={'speakers'}>
+            {/* <Element name={'speakers'}>
                 <Speakers/>
-            </Element>
-            <Element name='companies'>
-                <Companies/>
-            </Element>
+            </Element> */}            
             <Element id='sponsors' name={'Companies'}>
                 <Sponsors/>
             </Element>
-
-            <Element name={'droids'}>
+            {/* <Element name='companies'>
+                <Companies/>
+            </Element>        */}
+            {/* <Element name={'droids'}>
                 <Droids/>
-            </Element>
-
+            </Element> */}
             <Element id='team' name={'team'}>
                 <Team/>
             </Element>

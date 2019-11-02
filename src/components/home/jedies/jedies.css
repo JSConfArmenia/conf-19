@@ -1,6 +1,9 @@
-.jedies-heading {
-    text-align: center;
-    font-size: 40px;
+.galactic-jedies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height:64px;
     margin-bottom: 80px;
 }
 
@@ -23,6 +26,7 @@
     line-height: 0;
     width: 100%;
     height: 100%;
+    border-radius: 50%;
 }
 
 .jedi-person {
@@ -49,7 +53,7 @@
 }
 
 .jedi-section-content .content {
-    width: 270px;
+    width: 280px;
     height: 72px;
     font-family: Manrope;
     font-size: 15px;

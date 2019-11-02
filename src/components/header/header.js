@@ -35,7 +35,7 @@ const Header = () => {
                         {/* <Link to={'#'}>Schedule</Link> */}
 
                         <Link to={'#'} onClick={()=>{
-                            scrollToElement('speakers')
+                            scrollToElement('jedies')
                         }}>Speakers</Link>
 
                         <Link to={'#'} onClick={()=>{
@@ -58,7 +58,7 @@ const Header = () => {
                        
                         }}>Code of Conduct</a>
 
-                        <a target='_blank' href={'https://docs.google.com/forms/d/e/1FAIpQLScfpcg2SvaEuoqcZEPzAmuwG8-bI1SxRbcoCytxzeOruCOZlA/closedform'} className={'header_button'}>Apply to Speak</a>
+                        <a target='_blank' href={'https://docs.google.com/forms/d/e/1FAIpQLSeQ5hq54p4ymtyRLIE1WSHS3U4-26g5R6JLbR-jyZeoxJ1JUQ/viewform'} className={'header_button'}>Request an Invite</a>
                     </div>
                 </div>
             </div>

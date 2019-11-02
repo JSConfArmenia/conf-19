@@ -10,14 +10,13 @@ const faqs = [
 
     {
         title: 'How to participate?',
-        text: 'The entry of JS Conf Armenia 2019 is invitation-only so please make sure to\n' +
-            '                        request your invite as soon as the registration opens.'
+        text: 'The entry of JS Conf Armenia 2019 is invitation-only so to\n' +
+            '                        request your invite please <a href="https://docs.google.com/forms/d/1QRcGKBumvxd1Pt07GGp39pD9AilxoSGQaAd4535hqME/edit" class="faq-link">click here</a>.'
     },
 
     {
         title: 'Who are the speakers?',
-        text: 'The confirmed speakers list is not available yet. Want to be one of them?\n' +
-                '<a class="faq-link" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScfpcg2SvaEuoqcZEPzAmuwG8-bI1SxRbcoCytxzeOruCOZlA/closedform"> Apply here </a> to become a speaker.'
+        text: 'To see he confirmed speakers list, please <a href="#jedies" class="faq-link">click here</a>.'
     },
     {
         title: 'How much is the entry-ticket?',
@@ -25,15 +24,15 @@ const faqs = [
     },
     {
         title: 'What are the talk topics?',
-        text: 'The talk topics are not available yet.'
+        text: 'The talk topics will be announced soon.'
     },
     {
         title: 'When is the deadline for registration?',
-        text: 'The registration is not open yet. Follow us on social media to stay tuned.'
+        text: 'The deadline for the registration is November 27, 2019.'
     },
     {
         title: 'What is the conference language?',
-        text: 'The conference will be held both in Armenian and English, depending on the speaker.'
+        text: 'The conference will have talks in Armenian, English and Russian, depending on the speaker.'
     },
     {
         title: 'Who are behind the JS Conf Armenia?',
@@ -45,10 +44,7 @@ const faqs = [
     },
     {
         title: 'How to join the team?',
-        text: 'To help the team to make JS Conf Armenia 2019 happen please ' +
-            '<a target="_blank" ' +
-            'href="https://docs.google.com/forms/d/e/1FAIpQLSdcp6Yc6fOp4jvK8lMph9YJ_cxKviwRenEWoTTcwjszzzRKgg/viewform" ' +
-            'class="faq-link"> apply here </a> to become a JS Conf droid volunteer!'
+        text: 'We appreciate that you want to help us to make big things happen but the application for JSConfAM19 volunteers is already closed'
     },
     {
         title: 'Where is it going to be held?',

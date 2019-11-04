@@ -37,7 +37,7 @@ const jediesList = [
     {
         name: 'Tejas Kumar',
         image: TejasKumar,
-        desc: 'An award-winning international speaker',
+        desc: 'Tejas is an award-winning engineer and speaker about web technologies.',
         socialLinks: {
             github: 'https://github.com/TejasQ',
             twitter: 'https://twitter.com/TejasKumar_',

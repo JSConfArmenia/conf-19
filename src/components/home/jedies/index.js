@@ -10,7 +10,7 @@ import KhachaturVirabyan from '../../../images/speakers/khachatur.jpg';
 import HaykBarseghyan from '../../../images/speakers/hayk.jpg';
 import IrisSchaffer from '../../../images/speakers/iris.png';
 import LilitTadevosyan from '../../../images/speakers/lilit.jpg';
-import ArmenVardanyan from '../../../images/speakers/armen.jpg';
+import ArmenVardanyan from '../../../images/speakers/armen.png';
 import DavitAbgaryan from '../../../images/speakers/davit.jpeg';
 import LeandroOstera from '../../../images/speakers/leandro.jpg';
 import FarzadYousefZadeh from '../../../images/speakers/farzad.jpg';
@@ -37,7 +37,7 @@ const jediesList = [
     {
         name: 'Tejas Kumar',
         image: TejasKumar,
-        desc: 'An award-winning international speaker traveling the world and encouraging developers towards more effective experiences on the web.',
+        desc: 'An award-winning international speaker',
         socialLinks: {
             github: 'https://github.com/TejasQ',
             twitter: 'https://twitter.com/TejasKumar_',

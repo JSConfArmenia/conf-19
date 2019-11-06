@@ -109,16 +109,16 @@ const jediesList = [
             twitter: 'https://twitter.com/HrachMkr',
         }
     },
-    {
-        name: 'Iris Schaffer',
-        image: IrisSchaffer,
-        desc: 'Front-end Developer at Spotify, with a passion for user experience and design',
-        socialLinks: {
-            github: 'https://github.com/irisSchaffer',
-            linkedIn: 'https://www.linkedin.com/in/iris-schaffer-91b73798',
-            twitter: 'https://twitter.com/iris_schaffer',
-        }
-    },
+    // {
+    //     name: 'Iris Schaffer',
+    //     image: IrisSchaffer,
+    //     desc: 'Front-end Developer at Spotify, with a passion for user experience and design',
+    //     socialLinks: {
+    //         github: 'https://github.com/irisSchaffer',
+    //         linkedIn: 'https://www.linkedin.com/in/iris-schaffer-91b73798',
+    //         twitter: 'https://twitter.com/iris_schaffer',
+    //     }
+    // },
     {
         name: 'Davit Abgaryan',
         image: DavitAbgaryan,

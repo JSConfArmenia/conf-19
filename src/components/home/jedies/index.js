@@ -151,7 +151,7 @@ const jediesList = [
     {
         name: 'Khachatur Virabyan',
         image: KhachaturVirabyan,
-        desc: 'Frontend engineer at DataArt with extreme passion towards functional programming, design.',
+        desc: 'Frontend engineer at Teamable Armenia with extreme passion towards functional programming, design.',
         socialLinks: {
             github: 'https://github.com/Khachatour',
             twitter: 'https://twitter.com/kh_mugh',

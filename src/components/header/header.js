@@ -43,6 +43,10 @@ const Header = () => {
                         }}>Sponsors</Link>
 
                         <Link to={'#'} onClick={()=>{
+                            scrollToElement('jobsTitleImage')
+                        }}>Jobs</Link>
+
+                        <Link to={'#'} onClick={()=>{
                             scrollToElement('team')
                         }}>
                             Team

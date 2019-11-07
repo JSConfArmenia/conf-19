@@ -1,30 +1,39 @@
 import React from 'react';
 import './companies.css';
-import logo from '../../../images/logo2.png';
+import GalacticSponsors from '../../../images/galactic-sponsors@2x.png';
+import SimplyTechnologies from '../../../images/sponsors/simply.svg';
+import Renderforest from '../../../images/sponsors/renderforest.svg';
+import SuperAnnotate from '../../../images/sponsors/superannotate.png';
+import Digitain from '../../../images/sponsors/digitain.png';
+import DataArt from '../../../images/sponsors/dataart.png';
+import Vineti from '../../../images/sponsors/vineti.svg';
+import Teamable from '../../../images/sponsors/teamable.png';
+import FluxTechnologies from '../../../images/sponsors/flux.svg';
+import Ameriabank from '../../../images/sponsors/ameriabank.svg';
+import WebbFontaine from '../../../images/sponsors/webbfontaine.svg';
 
 const Companies = () => (
     <div className="companies-wrapper">
-        <h1 className="companies-heading">
-            Galactic Sponsors
-        </h1>
+        <img className="companies-heading" src={GalacticSponsors}></img>
         <div className="companies-blocks">
-            <div className="general-company company-block">
+            {/* <div className="general-company company-block">
                 <div className="company-title">
                     General Sponsor
                 </div>
                 <div className="company-logos">
                     <img className='general-logo' src={logo} alt="general company"/>
                 </div>
-            </div>
+            </div> */}
             <div className="gold-companies company-block">
                 <div className="company-title">
                     Gold Sponsors
                 </div>
                 <div className="company-logos">
-                    <img className='gold-logo' src={logo} alt="gold company"/>
-                    <img className='gold-logo' src={logo} alt="gold company"/>
-                    <img className='gold-logo' src={logo} alt="gold company"/>
-                    <img className='gold-logo' src={logo} alt="gold company"/>
+                    <img className='gold-logo' src={Digitain} alt="gold company"/>
+                    <img className='gold-logo' src={WebbFontaine} alt="gold company"/>
+                    <img className='gold-logo' src={Renderforest} alt="gold company"/>
+                    <img className='gold-logo' src={SimplyTechnologies} alt="gold company"/>
+                    <img className='gold-logo' src={DataArt} alt="gold company"/>
                 </div>
             </div>
             <div className="silver-companies company-block">
@@ -32,15 +41,14 @@ const Companies = () => (
                     Silver Sponsors
                 </div>
                 <div className="company-logos">
-                    <img className='silver-logo' src={logo} alt="silver company"/>
-                    <img className='silver-logo' src={logo} alt="silver company"/>
-                    <img className='silver-logo' src={logo} alt="silver company"/>
-                    <img className='silver-logo' src={logo} alt="silver company"/>
-                    <img className='silver-logo' src={logo} alt="silver company"/>
-                    <img className='silver-logo' src={logo} alt="silver company"/>
+                    <img className='silver-logo' src={Teamable} alt="silver company"/>                    
+                    <img className='silver-logo' src={Vineti} alt="silver company"/>
+                    <img className='silver-logo' src={Ameriabank} alt="silver company"/>
+                    <img className='silver-logo' src={FluxTechnologies} alt="silver company"/>
+                    <img className='silver-logo' src={SuperAnnotate} alt="silver sponsor"/>
                 </div>
             </div>
-            <div className="starter-company company-block">
+            {/* <div className="starter-company company-block">
                 <div className="company-title">
                     Starter Sponsor
                 </div>
@@ -56,7 +64,7 @@ const Companies = () => (
                     <img className='partner-logo' src={logo} alt="partner"/>
                     <img className='partner-logo' src={logo} alt="partner"/>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
 );

@@ -24,12 +24,15 @@ const Home = () => {
             {/* <Element name={'speakers'}>
                 <Speakers/>
             </Element> */}            
-            <Element id='sponsors' name={'Companies'}>
+            {/* <Element id='sponsors' name={'Companies'}>
                 <Sponsors/>
-            </Element>
+            </Element> */}
             {/* <Element name='companies'>
                 <Companies/>
-            </Element>        */}
+            </Element> */}
+            <Element id='jobsTitleImage' name={'job'}>
+               <Jobs/>
+            </Element>       
             {/* <Element name={'droids'}>
                 <Droids/>
             </Element> */}
@@ -39,9 +42,6 @@ const Home = () => {
             <Element name={'map'}>
                 <Location/>
             </Element>
-            {/*<Element name={'job'}>*/}
-            {/*    <Jobs/>*/}
-            {/*</Element>*/}
             <Element name={'faq'}>
                 <Faq/>
             </Element>

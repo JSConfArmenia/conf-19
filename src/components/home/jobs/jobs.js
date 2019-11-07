@@ -5,64 +5,50 @@ import jobsTitleImage from '../../../images/galactic-jobs@2x.png';
 
 const galacticJobs = [
     {
-        title: 'Mid/Senior JavaScript Developer',
-        company: 'ServiceTitan',
-        link:"#"
+        title: 'Node.js Engineer',
+        company: 'DataArt Armenia',
+        link:"https://staff.am/nodejs-engineer-11"
     },
     {
-        title: 'React Engineer',
+        title: 'Full Stack Software Engineer',
+        company: 'Vineti AM',
+        link:"https://recruiting.paylocity.com/Recruiting/Jobs/Details/59317"
+    },
+    {
+        title: 'ReactJS Engineer',
         company: 'Renderforest',
-        link:"#"
+        link:"https://www.renderforest.com/careers/reactjs-engineer"
     },
     {
-        title: 'Mid/Senior JavaScript Developer',
-        company: 'ServiceTitan',
-        link:"#"
-    },
-    {
-        title: 'React Engineer',
+        title: 'Front-end Developer',
         company: 'Renderforest',
-        link:"#"
+        link:"https://www.renderforest.com/careers/frontend-developer"
     },
     {
-        title: 'Mid/Senior JavaScript Developer',
-        company: 'ServiceTitan',
-        link:"#"
+        title: 'Mid+/Senior JavaScript Developer',
+        company: 'Simply Technologies',
+        link:"https://www.itjobs.am/job/simply_technologies/midsenior_full_stack_javascript_rockstar/5d88a30a9f81930004f72988"
     },
     {
-        title: 'React Engineer',
-        company: 'Renderforest',
-        link:"#"
+        title: 'Software Engineering Manager',
+        company: 'Vineti AM',
+        link:"https://recruiting.paylocity.com/Recruiting/Jobs/Details/110679"
     },
     {
-        title: 'Mid/Senior JavaScript Developer',
-        company: 'ServiceTitan',
-        link:"#"
+        title: 'Senior JavaScript Developer',
+        company: 'Flux Technologies',
+        link:"https://fluxtech.me/careers/?tab=senior-java-script-developer"
     },
     {
-        title: 'React Engineer',
-        company: 'Renderforest',
-        link:"#"
+        title: 'Front-End Engineer',
+        company: 'DataArt Armenia',
+        link:"https://staff.am/front-end-angularreactjs-engineer-12"
     },
-    {
-        title: 'Mid/Senior JavaScript Developer',
-        company: 'ServiceTitan',
-        link:"#"
-    },
-    {
-        title: 'React Engineer',
-        company: 'Renderforest',
-        link:"#"
-    },
+    
     {
         title: 'Mid/Senior JavaScript Developer',
-        company: 'ServiceTitan',
-        link:"#"
-    },
-    {
-        title: 'React Engineer',
-        company: 'Renderforest',
-        link:"#"
+        company: 'Digitain',
+        link: 'https://digitain.com/vacancy/mid-senior-javascript-developer-2/'
     }
 ];
 

@@ -92,7 +92,7 @@ const jediesList = [
     {
         name: 'Nairi Harutyunyan',
         image: NairiHarutyunyan,
-        desc: 'Back-end Engineer at Screenful, A Big Node.js fan',
+        desc: 'Back-end Engineer at Screenful',
         socialLinks: {
             github: 'https://github.com/nairihar',
             linkedIn: 'https://www.linkedin.com/in/nairi-harutyunyan-62a865106/',

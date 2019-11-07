@@ -58,7 +58,7 @@ const Header = () => {
                        
                         }}>Code of Conduct</a>
 
-                        <a target='_blank' href={'https://docs.google.com/forms/d/e/1FAIpQLSeQ5hq54p4ymtyRLIE1WSHS3U4-26g5R6JLbR-jyZeoxJ1JUQ/viewform'} className={'header_button'}>Request an Invite</a>
+                        <a target='_blank' href={'https://docs.google.com/forms/d/e/1FAIpQLScINFE818lItuC2Bdf0XNIx0TLEwyzyxXE9JxIvatuYcw6_Bg/viewform'} className={'header_button'}>Request an Invite</a>
                     </div>
                 </div>
             </div>

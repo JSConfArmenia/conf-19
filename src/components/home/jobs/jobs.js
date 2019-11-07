@@ -71,7 +71,7 @@ const Jobs = () => {
 
                             {
                                     <>
-                                        <a href={job.link}> <div className={'single_job_title'}>
+                                        <a target='-blank' href={job.link}> <div className={'single_job_title'}>
                                             {job.title}
                                         </div>
                                         <div className="companyName">{job.company}</div>

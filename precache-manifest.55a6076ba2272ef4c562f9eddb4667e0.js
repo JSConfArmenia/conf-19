@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5a1b4fe8b245d65d953213f7c725350",
+    "revision": "df7f9ed22ce43b0ac5aeb74f1593862c",
     "url": "/index.html"
   },
   {
-    "revision": "28fd20a0b13c1ce8bd2f",
-    "url": "/static/css/main.c9592d14.chunk.css"
+    "revision": "b5da8937029bbe82525c",
+    "url": "/static/css/main.db40d450.chunk.css"
   },
   {
-    "revision": "d8d28b0e6694d64d0738",
-    "url": "/static/js/2.21489dc8.chunk.js"
+    "revision": "d5aaf298f96720f9c386",
+    "url": "/static/js/2.568d22bf.chunk.js"
   },
   {
-    "revision": "28fd20a0b13c1ce8bd2f",
-    "url": "/static/js/main.426339fa.chunk.js"
+    "revision": "b5da8937029bbe82525c",
+    "url": "/static/js/main.67c7dae6.chunk.js"
   },
   {
     "revision": "11a81eb1c25ce2499595",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/about.b612dd7e.png"
   },
   {
+    "revision": "bda62f8057263c4e7a023fd19bf18cd9",
+    "url": "/static/media/ameriabank.bda62f80.svg"
+  },
+  {
     "revision": "9e9362cb6426de51e5c0ec087903c0b4",
     "url": "/static/media/armen.9e9362cb.png"
   },
@@ -88,12 +92,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/davit.8c5d1643.jpeg"
   },
   {
+    "revision": "29358ad6a8794c214751862a65b18a0d",
+    "url": "/static/media/digitain.29358ad6.png"
+  },
+  {
     "revision": "8cb553d01b4115671435863769a3f8b5",
     "url": "/static/media/edgar.8cb553d0.jpg"
   },
   {
     "revision": "25c1b8dc94781b4e778b12ecaa84fa64",
     "url": "/static/media/farzad.25c1b8dc.jpg"
+  },
+  {
+    "revision": "85b449555084f1aed6a8ff88b54d25bd",
+    "url": "/static/media/flux.85b44955.svg"
   },
   {
     "revision": "d68447347b2a04665c38030e64a2926c",
@@ -106,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4ff279727373ea63c3693d605185adeb",
     "url": "/static/media/galactic-jobs@2x.4ff27972.png"
+  },
+  {
+    "revision": "cb5cd430ad1d65348008f8eb37b313fb",
+    "url": "/static/media/galactic-sponsors@2x.cb5cd430.png"
   },
   {
     "revision": "30a605a343733bd04aa9265738f6b712",
@@ -184,6 +200,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/regular.700cae87.otf"
   },
   {
+    "revision": "a57a057726e27fa4aae36ddcf82f95c9",
+    "url": "/static/media/renderforest.a57a0577.svg"
+  },
+  {
     "revision": "4a7552a28f461facd6cb3e8a876c82c2",
     "url": "/static/media/roman.4a7552a2.jpg"
   },
@@ -196,6 +216,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ruben.e720fe8f.png"
   },
   {
+    "revision": "c4dcfba2137aab906f7da6dd01da2a6f",
+    "url": "/static/media/simply.c4dcfba2.svg"
+  },
+  {
     "revision": "4521bb1892da248d0b829cee5a8de418",
     "url": "/static/media/starry_bg.4521bb18.png"
   },
@@ -206,5 +230,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4261b7c760ea32f3923c1785c203b7ef",
     "url": "/static/media/tejas.4261b7c7.png"
+  },
+  {
+    "revision": "2525c495a0008827e9e990544f7f5e86",
+    "url": "/static/media/vineti.2525c495.svg"
+  },
+  {
+    "revision": "724fee259179a674ef220e06cf017ce4",
+    "url": "/static/media/webbfontaine.724fee25.svg"
   }
 ]);

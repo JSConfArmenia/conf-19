@@ -39,7 +39,7 @@ const Header = () => {
                         }}>Speakers</Link>
 
                         <Link to={'#'} onClick={()=>{
-                            scrollToElement('sponsors')
+                            scrollToElement('companies')
                         }}>Sponsors</Link>
 
                         <Link to={'#'} onClick={()=>{

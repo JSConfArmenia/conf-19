@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afdf0a336e86635ff77ac5f832723935",
+    "revision": "b9738fe700b14b15498ece7b7b6c6c17",
     "url": "/index.html"
   },
   {
-    "revision": "d34c21dcf6689ecf3f1d",
-    "url": "/static/css/main.db40d450.chunk.css"
+    "revision": "4617c1ef746b552996ab",
+    "url": "/static/css/main.4484e631.chunk.css"
   },
   {
     "revision": "da5ce40e651dcb7cd54b",
     "url": "/static/js/2.5b8b5de7.chunk.js"
   },
   {
-    "revision": "d34c21dcf6689ecf3f1d",
-    "url": "/static/js/main.8d5afc8e.chunk.js"
+    "revision": "4617c1ef746b552996ab",
+    "url": "/static/js/main.8dff7bce.chunk.js"
   },
   {
     "revision": "11a81eb1c25ce2499595",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/about.b612dd7e.png"
   },
   {
-    "revision": "bda62f8057263c4e7a023fd19bf18cd9",
-    "url": "/static/media/ameriabank.bda62f80.svg"
+    "revision": "d8c9e7cb9062e35ca85e35bd5e211fb4",
+    "url": "/static/media/ameriabank.d8c9e7cb.svg"
   },
   {
     "revision": "9e9362cb6426de51e5c0ec087903c0b4",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/davit.8c5d1643.jpeg"
   },
   {
-    "revision": "29358ad6a8794c214751862a65b18a0d",
-    "url": "/static/media/digitain.29358ad6.png"
+    "revision": "d4e4cb71bd42ef808ce65b34d3a9bf46",
+    "url": "/static/media/digitain.d4e4cb71.svg"
   },
   {
     "revision": "8cb553d01b4115671435863769a3f8b5",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/farzad.25c1b8dc.jpg"
   },
   {
-    "revision": "85b449555084f1aed6a8ff88b54d25bd",
-    "url": "/static/media/flux.85b44955.svg"
+    "revision": "17c622f4e8939eed6648d2919b5d16ed",
+    "url": "/static/media/flux.17c622f4.svg"
   },
   {
     "revision": "d68447347b2a04665c38030e64a2926c",
@@ -200,8 +200,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/regular.700cae87.otf"
   },
   {
-    "revision": "a57a057726e27fa4aae36ddcf82f95c9",
-    "url": "/static/media/renderforest.a57a0577.svg"
+    "revision": "487c6f8023c14a8190690703ea648ee9",
+    "url": "/static/media/renderforest.487c6f80.svg"
   },
   {
     "revision": "4a7552a28f461facd6cb3e8a876c82c2",
@@ -216,8 +216,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ruben.e720fe8f.png"
   },
   {
-    "revision": "c4dcfba2137aab906f7da6dd01da2a6f",
-    "url": "/static/media/simply.c4dcfba2.svg"
+    "revision": "b96ff083271cfb664b8bb7f6c589c255",
+    "url": "/static/media/simply.b96ff083.svg"
   },
   {
     "revision": "4521bb1892da248d0b829cee5a8de418",
@@ -228,15 +228,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stephanie.7e9b4606.jpeg"
   },
   {
+    "revision": "95e3d3e2ac3efef5ec8e5b3f38cd3388",
+    "url": "/static/media/superannotate.95e3d3e2.svg"
+  },
+  {
     "revision": "4261b7c760ea32f3923c1785c203b7ef",
     "url": "/static/media/tejas.4261b7c7.png"
   },
   {
-    "revision": "2525c495a0008827e9e990544f7f5e86",
-    "url": "/static/media/vineti.2525c495.svg"
+    "revision": "454ffaea1945801886439f94082527d8",
+    "url": "/static/media/vineti.454ffaea.svg"
   },
   {
-    "revision": "724fee259179a674ef220e06cf017ce4",
-    "url": "/static/media/webbfontaine.724fee25.svg"
+    "revision": "67a900bdf18814c2d50c0dac2331fb23",
+    "url": "/static/media/webbfontaine.67a900bd.svg"
   }
 ]);

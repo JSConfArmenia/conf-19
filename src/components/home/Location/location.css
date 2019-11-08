@@ -9,8 +9,18 @@
 }
 .galaxy_map {
     width: 90%;
+    /* height: 90%; */
     height: 640px;
     margin-bottom: 120px;
+}
+@media screen and (max-width : 600px) {
+    .galaxy_map {
+        padding-top: 56.25%;
+        margin-top: -56.25%;
+    }
+    .galaxy_title{
+        margin-bottom: 60px;
+    }
 }
 
 .galaxy_title span{

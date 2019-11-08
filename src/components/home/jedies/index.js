@@ -215,7 +215,6 @@ const Jedies = () => (
                             </div>
                             <div className="content">
                                 {jedi.desc}
-                            </div>
                             <div className="social-buttons">
                                 {
                                     !!jedi.socialLinks.github && (
@@ -244,6 +243,7 @@ const Jedies = () => (
                                         </div>
                                     )
                                 }
+                            </div>
                             </div>
                         </div>
                     </div>

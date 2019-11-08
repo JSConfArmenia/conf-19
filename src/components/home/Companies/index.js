@@ -29,16 +29,8 @@ const Companies = () => {
     ];
     return (
         <div className="companies-wrapper">
-            <img className="companies-heading" src={GalacticSponsors}></img>
+            <img className="companies-heading" alt="Galactic Sponsors" src={GalacticSponsors}/>
             <div className="companies-blocks">
-                {/* <div className="general-company company-block">
-                    <div className="company-title">
-                        General Sponsor
-                    </div>
-                    <div className="company-logos">
-                        <img className='general-logo' src={logo} alt="general company"/>
-                    </div>
-                </div> */}
                 <div className="gold-companies company-block">
                     <div className="company-title">
                         Gold Sponsors
@@ -55,14 +47,7 @@ const Companies = () => {
                         {silverSponsors.map(sponsorImg => <img className='gold-logo' src={sponsorImg} alt="gold company"/> )}
                     </div>
                 </div>
-                {/* <div className="starter-company company-block">
-                    <div className="company-title">
-                        Starter Sponsor
-                    </div>
-                    <div className="company-logos">
-                        <img className='starter-logo' src={logo} alt="starter company"/>
-                    </div>
-                </div>
+                {/*
                 <div className="partners company-block">
                     <div className="company-title">
                         Partners

@@ -10,6 +10,11 @@
     padding-left: 50px;
     align-items: flex-start;
 }
+@media screen and (max-width : 600px) {
+    .header_logo {
+        padding-left: 0px;
+    }
+}
 .header_items {
     display: flex;
     /* width: 750px; */

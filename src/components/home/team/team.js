@@ -42,10 +42,6 @@ const Team = () => {
         <div className={'toCenter'}>
 
             <img
-                style={{
-                    width: '528px',
-                    height: '43px',
-                }}
                 src={galacticTeamImage}
                 className={'team_title'}
                 alt='Galactic team' />

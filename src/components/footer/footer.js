@@ -9,7 +9,7 @@ import enPress from '../../Files/JSConfAM19_EN.pdf';
 const Footer = () => {
     return (
         <>
-            <div className={'wrapper'}>
+            <div className={'wrapperFooter'}>
                 <div className={'footer'}>
 
                     <div className={'logo2'}>

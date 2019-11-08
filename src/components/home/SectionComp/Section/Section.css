@@ -1,8 +1,11 @@
 .section_container{
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 100%;
     margin-bottom: 119px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .section_container:last-child {
@@ -12,10 +15,21 @@
 .imagePart{
     flex: 50%;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .textPart{
     flex: 50%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
 }
 
 .callForJedies {
@@ -25,8 +39,10 @@
 }
 
 .callForJedies.sponsors {
-    width: 500px;
-    height: 33px;
+    display: flex;
+    width: 90%;
+    max-width: 500px;
+    height: 100%;
 }
 
 .callForJedies.droid {
@@ -54,12 +70,14 @@
     margin-bottom: 63px;
 }
 .textPart p{
+    display: flex;
+    width: 100%;
     font-family: manrope;
     font-weight: normal;
     font-size: 22px;
     margin: 0 auto;
     text-align: center;
-    width: 570px;
+    max-width: 570px;
     margin-bottom: 63px;
     color: #c5c5c5;
 }

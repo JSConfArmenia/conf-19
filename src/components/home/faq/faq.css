@@ -10,7 +10,9 @@
 
 .faq_title {
     margin: 0 0 57px;
-    width: 487px;
+    max-width: 487px;
+    width: 90%;
+    object-fit: contain;
 }
 .faq_title span{
     font-family: Starjedi;

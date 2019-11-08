@@ -1,8 +1,18 @@
 .galaxy_title{
+    display: flex;
+    width: 90%;
+    max-width: 908px;
     margin-bottom: 120px;
     font-size: 38px;
     letter-spacing: 4px;
+    object-fit: contain;
 }
+.galaxy_map {
+    width: 90%;
+    height: 640px;
+    margin-bottom: 120px;
+}
+
 .galaxy_title span{
     font-family: Starjedi;
 }

@@ -24,12 +24,12 @@ const Home = () => {
             {/* <Element name={'speakers'}>
                 <Speakers/>
             </Element> */}            
-            <Element id='sponsors' name={'Companies'}>
+            {/* <Element id='sponsors' name={'Companies'}>
                 <Sponsors/>
-            </Element>
-            {/* <Element name='companies'>
-                <Companies/>
             </Element> */}
+            <Element name='companies'>
+                <Companies/>
+            </Element>
             <Element id='jobsTitleImage' name={'job'}>
                <Jobs/>
             </Element>       

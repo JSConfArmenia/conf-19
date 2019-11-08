@@ -1,7 +1,7 @@
 .companies-wrapper  {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-flow: column nowrap;
     margin-bottom: 120px;
 }
@@ -14,8 +14,9 @@
     /* height: 64px;
     margin-bottom: 50px; */
     margin: 0 0 60px;
-    width: 700px;
-    height: 45px;
+    width: 90%;
+    max-width: 700px;
+    /* height: 45px; */
 }
 
 .company-block {
@@ -59,7 +60,7 @@
     height: auto;
     line-height: 0;
     margin-left: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
 .gold-logo:nth-child(odd) {

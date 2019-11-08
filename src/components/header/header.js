@@ -18,7 +18,7 @@ const Header = () => {
     const items = [
         { title: 'About', element: 'rotated_text' },
         { title: 'Speakers', element: 'jedies' },
-        { title: 'Sponsors', element: 'sponsors' },
+        { title: 'Sponsors', element: 'companies' },
         { title: 'Jobs', element: 'jobsTitleImage' },
         { title: 'Team', element: 'team' },
         { title: 'Location', element: 'map' },

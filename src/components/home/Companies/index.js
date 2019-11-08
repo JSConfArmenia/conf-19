@@ -3,8 +3,8 @@ import './companies.css';
 import GalacticSponsors from '../../../images/galactic-sponsors@2x.png';
 import SimplyTechnologies from '../../../images/sponsors/simply.svg';
 import Renderforest from '../../../images/sponsors/renderforest.svg';
-import SuperAnnotate from '../../../images/sponsors/superannotate.png';
-import Digitain from '../../../images/sponsors/digitain.png';
+import SuperAnnotate from '../../../images/sponsors/superannotate.svg';
+import Digitain from '../../../images/sponsors/digitain.svg';
 import DataArt from '../../../images/sponsors/dataart.png';
 import Vineti from '../../../images/sponsors/vineti.svg';
 import Teamable from '../../../images/sponsors/teamable.png';
@@ -41,11 +41,11 @@ const Companies = () => (
                     Silver Sponsors
                 </div>
                 <div className="company-logos">
-                    <img className='silver-logo' src={Teamable} alt="silver company"/>                    
+                    <img className='silver-logo' src={FluxTechnologies} alt="silver company"/>                    
                     <img className='silver-logo' src={Vineti} alt="silver company"/>
+                    <img className='silver-logo' src={SuperAnnotate} alt="silver company"/>
                     <img className='silver-logo' src={Ameriabank} alt="silver company"/>
-                    <img className='silver-logo' src={FluxTechnologies} alt="silver company"/>
-                    <img className='silver-logo' src={SuperAnnotate} alt="silver sponsor"/>
+                    <img className='silver-logo' src={Teamable} alt="silver sponsor"/>
                 </div>
             </div>
             {/* <div className="starter-company company-block">

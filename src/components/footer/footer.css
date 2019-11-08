@@ -29,6 +29,7 @@
 .logo2 a img {
     display: flex;
     width: 90%;
+    max-width: 600px;
     /* height: 81px; */
     object-fit: contain;
     align-self: center;

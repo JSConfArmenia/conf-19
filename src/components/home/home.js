@@ -27,9 +27,9 @@ const Home = () => {
             <Element id='sponsors' name={'Companies'}>
                 <Sponsors/>
             </Element>
-            {/* <Element name='companies'>
+            <Element name='companies'>
                 <Companies/>
-            </Element> */}
+            </Element>
             <Element id='jobsTitleImage' name={'job'}>
                <Jobs/>
             </Element>       

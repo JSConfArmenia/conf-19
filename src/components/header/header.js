@@ -2,19 +2,57 @@ import React from 'react';
 import './header.css';
 import {Link} from "react-router-dom";
 import logo from '../../images/logo.png'
+import burger from '../../images/burger.png'
 import {scroller} from 'react-scroll';
 
-const Header = () => {
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.setWrapperRef = this.setWrapperRef.bind(this);
+    this.handleClickOutside = this.handleClickOutside.bind(this);
+    this.state = {
+        isMenuVisible: false,
+    }
+  }
 
+  componentDidMount() {
+    document.addEventListener('mousedown', this.handleClickOutside);
+  }
 
-    const scrollToElement = (element) => {
-        scroller.scrollTo(element, {
-            duration: 1500,
-            delay: 100,
-            smooth: true
-        })
-    };
+  componentWillUnmount() {
+    document.removeEventListener('mousedown', this.handleClickOutside);
+  }
 
+  /**
+   * Set the wrapper ref
+   */
+  setWrapperRef(node) {
+    this.wrapperRef = node;
+  }
+
+  /**
+   * Alert if clicked on outside of element
+   */
+  handleClickOutside(event) {
+    if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+      this.setState({ isMenuVisible: false });
+    }
+  }
+
+  scrollToElement = (element) => {
+      scroller.scrollTo(element, {
+          duration: 1500,
+          delay: 100,
+          smooth: true
+      });
+      this.setState({ isMenuVisible: false });
+  };
+
+  onClick = () => {
+    this.setState({ isMenuVisible: !this.state.isMenuVisible });
+  }
+
+  render() {
     const items = [
         { title: 'About', element: 'rotated_text' },
         { title: 'Speakers', element: 'jedies' },
@@ -25,8 +63,10 @@ const Header = () => {
         { title: 'FAQ', element: 'faq' },
         { title: '', element: '' },
     ];
+    const { isMenuVisible } = this.state;
+    const menuStyle = isMenuVisible ? { 'background-color': 'black', display: 'flex' } : { };
     return (
-        <div>
+        <div ref={this.setWrapperRef}>
             <div className={'wrapperHeader'}>
                 <div className={'header'}>
                     <div className={'header_logo'}>
@@ -34,10 +74,11 @@ const Header = () => {
                             <img src={logo} alt="img"/>
                         </Link>
                     </div>
-                    <div className={'header_items'}>
+                    <img onClick={this.onClick} className="hamburger" src={burger}/>
+                    <div className={'header_items'} style={menuStyle} >
                         {items.map((item) =>
                             <Link to={'#'} onClick={()=>{
-                                scrollToElement(item.element)
+                                this.scrollToElement(item.element)
                             }}>{item.title}</Link>
                         )}
                         <a
@@ -53,6 +94,7 @@ const Header = () => {
             </div>
         </div>
     );
+  }
 };
 
 export default Header;

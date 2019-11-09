@@ -6,11 +6,30 @@
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     margin: 0 auto;
-    width: 1170px;
     padding: 10px;
 }
-
+.wrapperHeader {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+.wrapperFooter {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* padding: 10px; */
+}
 body {
     background-image: url("images/starry_bg.png");
     background-repeat: repeat;

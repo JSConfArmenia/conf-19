@@ -1,15 +1,18 @@
-.rotateted_text{
+.rotated_text{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 320px;
-    margin-bottom: 120px;
+    max-height: 320px;
+    margin-bottom: 15%;
 }
 
-.rotateted_text img {
-    display: block;
-    width: 762px;
-    height: 320px;
+.rotated_text img {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    max-width: 762px;
+    max-height: 320px;
     line-height: 0;
+    object-fit: contain;
 }

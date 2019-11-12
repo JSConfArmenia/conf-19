@@ -16,11 +16,11 @@ const faqs = [
 
     {
         title: 'Who are the speakers?',
-        text: 'To see he confirmed speakers list, please <a href="#jedies" class="faq-link">click here</a>.'
+        text: 'To see the confirmed speakers list, please <a href="#jedies" class="faq-link">click here</a>.'
     },
     {
         title: 'How much is the entry-ticket?',
-        text: 'The event entry is free of charge.'
+        text: 'You can request a free invitation until November 23. Later you will need to purchase a ticket to attend the event which will cost $10.'
     },
     {
         title: 'What are the talk topics?',
@@ -28,7 +28,7 @@ const faqs = [
     },
     {
         title: 'When is the deadline for registration?',
-        text: 'The deadline for the registration is November 27, 2019.'
+        text: 'The deadline for the free registration is November 23, 2019.'
     },
     {
         title: 'What is the conference language?',
@@ -52,7 +52,7 @@ const faqs = [
     },
     {
         title: 'Who supports JS Conf Armenia?',
-        text: 'To learn about our Companies and partners, please, <a href="#Companies" class="faq-link">click here</a>.'
+        text: 'To learn about our Companies and partners, please, <a href="#companies" class="faq-link">click here</a>.'
     },
     {
         title: 'What is the conference code of conduct?',

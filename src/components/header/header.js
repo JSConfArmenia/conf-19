@@ -61,7 +61,6 @@ class Header extends React.Component {
         { title: 'Team', element: 'team' },
         { title: 'Location', element: 'map' },
         { title: 'FAQ', element: 'faq' },
-        { title: '', element: '' },
     ];
     const { isMenuVisible } = this.state;
     const menuStyle = isMenuVisible ? { 'background-color': 'black', display: 'flex' } : { };

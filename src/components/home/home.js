@@ -27,7 +27,7 @@ const Home = () => {
             {/* <Element id='sponsors' name={'Companies'}>
                 <Sponsors/>
             </Element> */}
-            <Element name='companies'>
+            <Element id='companies' name='companies'>
                 <Companies/>
             </Element>
             <Element id='jobsTitleImage' name={'job'}>

@@ -7,7 +7,7 @@ import SuperAnnotate from '../../../images/sponsors/superannotate.svg';
 import Digitain from '../../../images/sponsors/digitain.svg';
 import DataArt from '../../../images/sponsors/dataart.png';
 import Vineti from '../../../images/sponsors/vineti.svg';
-import Teamable from '../../../images/sponsors/teamable.png';
+import Teamable from '../../../images/sponsors/teamable.svg';
 import FluxTechnologies from '../../../images/sponsors/flux.svg';
 import Ameriabank from '../../../images/sponsors/ameriabank.svg';
 import WebbFontaine from '../../../images/sponsors/webbfontaine.svg';
@@ -21,11 +21,11 @@ const Companies = () => {
         DataArt
     ];
     const silverSponsors = [
+        Teamable,
         FluxTechnologies,
+        Ameriabank,
         Vineti,
         SuperAnnotate,
-        Ameriabank,
-        Teamable,
     ];
     return (
         <div className="companies-wrapper">
@@ -44,7 +44,7 @@ const Companies = () => {
                         Silver Sponsors
                     </div>
                     <div className="company-logos">
-                        {silverSponsors.map(sponsorImg => <img className='gold-logo' src={sponsorImg} alt="gold company"/> )}
+                        {silverSponsors.map(sponsorImg => <img className='silver-logo' src={sponsorImg} alt="silver company"/> )}
                     </div>
                 </div>
                 {/*

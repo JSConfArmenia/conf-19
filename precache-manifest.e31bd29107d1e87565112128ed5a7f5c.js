@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e94bcf714c8c7f80c6bd2649a6df5d4d",
+    "revision": "c3e69a8a70412d1c46316c73b28fd32b",
     "url": "/index.html"
   },
   {
-    "revision": "df932406d05e2932494b",
-    "url": "/static/css/main.fb53582a.chunk.css"
+    "revision": "5f8bf957c388ed5d553a",
+    "url": "/static/css/main.7519b6d2.chunk.css"
   },
   {
     "revision": "da41a831803710f6f9a1",
     "url": "/static/js/2.1b758d85.chunk.js"
   },
   {
-    "revision": "df932406d05e2932494b",
-    "url": "/static/js/main.83800b3e.chunk.js"
+    "revision": "5f8bf957c388ed5d553a",
+    "url": "/static/js/main.29cc28ef.chunk.js"
   },
   {
     "revision": "11a81eb1c25ce2499595",
@@ -230,6 +230,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "95e3d3e2ac3efef5ec8e5b3f38cd3388",
     "url": "/static/media/superannotate.95e3d3e2.svg"
+  },
+  {
+    "revision": "e8e9f0b7eafd2b5fdce09e86db859363",
+    "url": "/static/media/teamable.e8e9f0b7.svg"
   },
   {
     "revision": "4261b7c760ea32f3923c1785c203b7ef",

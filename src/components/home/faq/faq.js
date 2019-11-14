@@ -10,7 +10,7 @@ const faqs = [
 
     {
         title: 'How to participate?',
-        text: 'The entry of JS Conf Armenia 2019 is invitation-only so to\n' +
+        text: 'The entry to JS Conf Armenia 2019 is invitation-only so to\n' +
             '                        request your invite please <a href="https://docs.google.com/forms/d/1QRcGKBumvxd1Pt07GGp39pD9AilxoSGQaAd4535hqME/edit" class="faq-link">click here</a>.'
     },
 
@@ -35,8 +35,8 @@ const faqs = [
         text: 'The conference will have talks in Armenian, English and Russian, depending on the speaker.'
     },
     {
-        title: 'Who are behind the JS Conf Armenia?',
-        text: 'To see the JS Conf Armenia team, please, <a href="#team" class="faq-link"> click here</a>.'
+        title: 'Who are behind JS Conf Armenia?',
+        text: 'To see the JS Conf Armenia team, please, <a href="#team" class="faq-link">click here</a>.'
     },
     {
         title: 'When is it going to take place?',

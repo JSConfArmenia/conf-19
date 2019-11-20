@@ -45,6 +45,11 @@ const galacticJobs = [
         link:"https://fluxtech.me/careers/?tab=senior-java-script-developer"
     },
     {
+        title: 'Node.js Developer',
+        company: 'SuperAnnotate',
+        link:"https://www.facebook.com/superannotate/posts/421661518509145"
+    },
+    {
         title: 'Senior Front-End Developer',
         company: 'Simply Technologies',
         link:"https://www.itjobs.am/job/simply_technologies/senior_front_end_rockstar/5dc924669a743700040c9870"
@@ -63,6 +68,11 @@ const galacticJobs = [
         title: 'Mid/Senior JavaScript Developer',
         company: 'Digitain',
         link: 'https://digitain.com/vacancy/mid-senior-javascript-developer-2/'
+    },
+    {
+        title: 'Angular Developer',
+        company: 'SuperAnnotate',
+        link:"https://www.facebook.com/superannotate/posts/421663465175617"
     },
     {
         title: 'Mid Back-End Developer',

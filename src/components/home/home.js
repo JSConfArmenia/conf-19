@@ -12,6 +12,7 @@ import Logo from './Jslogo/Jslogo'
 import Jslogo from './Jslogo/Jslogo';
 import Jedies from "./jedies";
 import Companies from "./Companies";
+import Background from './Background/Background';
 
 const Home = () => {
     return (
@@ -45,7 +46,7 @@ const Home = () => {
             <Element name={'faq'}>
                 <Faq/>
             </Element>
-
+            <Background />
         </div>
     );
 };

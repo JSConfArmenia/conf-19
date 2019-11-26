@@ -36,7 +36,7 @@ const Companies = () => {
                         Gold Sponsors
                     </div>
                     <div className="company-logos">
-                        {goldSponsors.map(sponsorImg => <img className='gold-logo' src={sponsorImg} alt="gold company"/> )}
+                        {goldSponsors.map(sponsorImg => <img key={sponsorImg} className='gold-logo' src={sponsorImg} alt="gold company"/> )}
                     </div>
                 </div>
                 <div className="silver-companies company-block">
@@ -44,7 +44,7 @@ const Companies = () => {
                         Silver Sponsors
                     </div>
                     <div className="company-logos">
-                        {silverSponsors.map(sponsorImg => <img className='silver-logo' src={sponsorImg} alt="silver company"/> )}
+                        {silverSponsors.map(sponsorImg => <img key={sponsorImg}  className='silver-logo' src={sponsorImg} alt="silver company"/> )}
                     </div>
                 </div>
                 {/*

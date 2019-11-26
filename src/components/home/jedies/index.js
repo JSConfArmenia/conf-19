@@ -25,6 +25,7 @@ import './jedies.css';
 
 const jediesList = [
     {
+        id: 1,
         name: 'Natalia Tepluhina',
         image: NataliaTepluhina,
         desc: 'Vue.js Core Team Member, Google Developers Expert, Senior Frontend Engineer at GitLab Inc.',
@@ -35,6 +36,7 @@ const jediesList = [
         }
     },
     {
+        id: 2,
         name: 'Tejas Kumar',
         image: TejasKumar,
         desc: 'Tejas is an award-winning engineer and speaker about web technologies.',
@@ -44,6 +46,7 @@ const jediesList = [
         }
     },
     {
+        id: 3,
         name: 'Nicolò Maria Mezzopera',
         image: NicoloMezzopera,
         desc: 'Senior Frontend Engineer at Gitlab Inc., Passionate Vue.js developer',
@@ -54,6 +57,7 @@ const jediesList = [
         }
     },
     {
+        id: 4,
         name: 'Hayk Barseghyan',
         image: HaykBarseghyan,
         desc: 'Senior Member Of Technical Staff at VMware',
@@ -62,6 +66,7 @@ const jediesList = [
         }
     },
     {
+        id: 5,
         name: 'Roman Enikeev',
         image: RomanEnikeev,
         desc: 'Development Lead at DataArt with more than 12 years of production experience',
@@ -70,6 +75,7 @@ const jediesList = [
         }
     },
     {
+        id: 6,
         name: 'Stephanie Siaw',
         image: StephanieSiaw,
         desc: 'Engineering Manager at Deliveroo',
@@ -80,6 +86,7 @@ const jediesList = [
         }
     },
     {
+        id: 7,
         name: 'Edgar Marukyan',
         image: EdgarMarukyan,
         desc: 'Co-founder at JS Conf Armenia, CTO at Renderforest',
@@ -90,6 +97,7 @@ const jediesList = [
         }
     },
     {
+        id: 8,
         name: 'Nairi Harutyunyan',
         image: NairiHarutyunyan,
         desc: 'Back-end Engineer at Screenful',
@@ -100,6 +108,7 @@ const jediesList = [
         }
     },
     {
+        id: 9,
         name: 'Hrach Mkrtchyan',
         image: HrachMkrtchyan,
         desc: 'React.js Engineer at Renderforest',
@@ -110,6 +119,7 @@ const jediesList = [
         }
     },
     {
+        id: 10,
         name: 'Iris Schaffer',
         image: IrisSchaffer,
         desc: 'Front-end Developer at SRC, with a passion for user experience and design',
@@ -120,6 +130,7 @@ const jediesList = [
         }
     },
     {
+        id: 11,
         name: 'Davit Abgaryan',
         image: DavitAbgaryan,
         desc: 'Senior Software Developer at SuperAnnotate',
@@ -129,6 +140,7 @@ const jediesList = [
         }
     },
     {
+        id: 12,
         name: 'Farzad Yousef Zadeh',
         image: FarzadYousefZadeh,
         desc: 'Senior Software Engineer, International Conference Speaker',
@@ -139,6 +151,7 @@ const jediesList = [
         }
     },
     {
+        id: 13,
         name: 'Rouben Meschian',
         image: RoubenMeschian,
         desc: 'Co-founder at JS Conf Armenia, Founding Engineer at Cambridge Semantics',
@@ -149,6 +162,7 @@ const jediesList = [
         }
     },
     {
+        id: 14,
         name: 'Khachatur Virabyan',
         image: KhachaturVirabyan,
         desc: 'Frontend engineer at Teamable Armenia with extreme passion towards functional programming, design.',
@@ -158,6 +172,7 @@ const jediesList = [
         }
     },
     {
+        id: 15,
         name: 'Lilit Tadevosyan',
         image: LilitTadevosyan,
         desc: 'Senior Software Engineer at Workfront Armenia',
@@ -167,6 +182,7 @@ const jediesList = [
         }
     },
     {
+        id: 16,
         name: 'Ruben Harutyunyan',
         image: RubenHarutyunyan,
         desc: 'Full-stack Web Developer',
@@ -177,6 +193,7 @@ const jediesList = [
         }
     },
     {
+        id: 17,
         name: 'Leandro Ostera',
         image: LeandroOstera,
         desc: 'Research Engineer at SRC',
@@ -187,6 +204,7 @@ const jediesList = [
         }
     },
     {
+        id: 18,
         name: 'Armen Vardanyan',
         image: ArmenVardanyan,
         desc: 'Senior Angular Developer at VOLO',
@@ -198,14 +216,16 @@ const jediesList = [
     },
 ];
 
+export { jediesList as list  };
+
 const Jedies = () => (
     <div>
-        <div class='galactic-jedies'>
-            <img src={galacticjedies} class='galactic-jedies' alt='Galactic Jedies'></img></div>
+        <div className='galactic-jedies'>
+            <img src={galacticjedies} className='galactic-jedies' alt='Galactic Jedies'></img></div>
         <div className='jedies-section-wrapper'>
             {
                 jediesList.map(jedi => (
-                    <div className='jedi-person'>
+                    <div className='jedi-person' key={jedi.name}>
                         <div className='jedi-image'>
                             <img src={jedi.image} alt={jedi.name}/>
                         </div>

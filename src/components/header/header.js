@@ -76,7 +76,7 @@ class Header extends React.Component {
                     <img onClick={this.onClick} className="hamburger" src={burger}/>
                     <div className={'header_items'} style={menuStyle} >
                         {items.map((item) =>
-                            <Link to={'#'} onClick={()=>{
+                            <Link to={'#'} key={item.title} onClick={()=>{
                                 this.scrollToElement(item.element)
                             }}>{item.title}</Link>
                         )}

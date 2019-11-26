@@ -42,7 +42,7 @@ const Footer = () => {
                     <div className='design-and-branding'>
                         Design and branding by &nbsp;
                         <a target='_blank' href='https://www.behance.net/Davidtiger' className="orange">@davidtiger</a>, coded in React.js by &nbsp;
-                        <a target='_blank' href='https://github.com/JSConfArmenia' className="orange">our awesome collaborators</a>
+                        <a target='_blank' href='https://github.com/JSConfArmenia/conf-19/graphs/contributors' className="orange">our awesome collaborators</a>
                     </div>
                 </div>
             </div>

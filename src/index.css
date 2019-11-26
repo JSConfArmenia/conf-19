@@ -37,6 +37,24 @@
     width: 100%;
     /* padding: 10px; */
 }
+
+.ScheduleWrapper {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 250px;
+    /* justify-content: center; */
+}
+
+.Schedule {
+    /* min-width: 1000px; */
+    width: 1170px;
+    height: 2221px;
+    margin: 0 auto;
+}
+
 body {
     margin: 0;
     background-color: #000000;

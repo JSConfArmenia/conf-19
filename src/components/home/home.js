@@ -4,6 +4,7 @@ import Jobs from "./jobs/jobs";
 import Team from "./team/team";
 import JsConf from "./jsConf/jsConf";
 import {Element} from 'react-scroll';
+
 import Sponsors from "./Sponsors";
 import Speakers from "./Speakers";
 import Droids from "./droids";
@@ -19,6 +20,9 @@ const Home = () => {
         <div className={'wrapper'}>
             <Jslogo/>
             <JsConf/>
+            <div className='ScheduleWrapper'>
+                <img src='/Schedule.png' alt='Schedule' className='Schedule' />
+            </div>
             <Element id='jedies' name={'jedies'}>
                 <Jedies />
             </Element>

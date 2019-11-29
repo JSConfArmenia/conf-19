@@ -49,11 +49,15 @@
 }
 
 .Schedule {
-    /* min-width: 1000px; */
     width: 1170px;
-    height: 2221px;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .Schedule {
+        width: 900px;
+    }
+  }
 
 body {
     margin: 0;

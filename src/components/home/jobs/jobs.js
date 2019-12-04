@@ -79,6 +79,26 @@ const galacticJobs = [
         company: 'Simply Technologies',
         link:"https://www.itjobs.am/job/simply_technologies/mid_back_end_developer/5dc8ff57fdecf10004da159d"
     },
+    {
+        title: 'Front-end Developer',
+        company: 'Ameriabank',
+        link:"https://recruitment.ameriabank.am/job-details/398"
+    },
+    {
+        title: 'Front-end Developer',
+        company: 'Ameriabank',
+        link:"https://recruitment.ameriabank.am/job-details/398"
+    },
+    {
+        title: 'Head of Front-end Development Division',
+        company: 'Ameriabank',
+        link:"https://recruitment.ameriabank.am/job-details/261"
+    },
+    {
+        title: 'Front-end Internship',
+        company: 'Teamable',
+        link:"https://jobs.lever.co/teamable/6c4c3e66-859e-42d8-9198-09168c4c1411"
+    },
 ];
 
 const Jobs = () => {

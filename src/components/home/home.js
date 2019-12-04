@@ -20,9 +20,10 @@ const Home = () => {
         <div className={'wrapper'}>
             <Jslogo/>
             <JsConf/>
-            <div className='ScheduleWrapper'>
-                <img src='/Schedule.png' alt='Schedule' className='Schedule' />
+            <Element id='schedule'><div className='ScheduleWrapper'>
+                <img id='' src='/Schedule.png' alt='Schedule' className='Schedule' />
             </div>
+            </Element>
             <Element id='jedies' name={'jedies'}>
                 <Jedies />
             </Element>

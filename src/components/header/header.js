@@ -56,6 +56,7 @@ class Header extends React.Component {
     const items = [
         { title: 'About', element: 'rotated_text' },
         { title: 'Speakers', element: 'jedies' },
+        { title: 'Schedule', element: 'schedule'},
         { title: 'Sponsors', element: 'companies' },
         { title: 'Jobs', element: 'jobsTitleImage' },
         { title: 'Team', element: 'team' },

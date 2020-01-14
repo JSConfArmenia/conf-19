@@ -4,6 +4,7 @@ import Jobs from "./jobs/jobs";
 import Team from "./team/team";
 import JsConf from "./jsConf/jsConf";
 import {Element} from 'react-scroll';
+
 import Sponsors from "./Sponsors";
 import Speakers from "./Speakers";
 import Droids from "./droids";
@@ -12,12 +13,17 @@ import Logo from './Jslogo/Jslogo'
 import Jslogo from './Jslogo/Jslogo';
 import Jedies from "./jedies";
 import Companies from "./Companies";
+import Background from './Background/Background';
 
 const Home = () => {
     return (
         <div className={'wrapper'}>
             <Jslogo/>
             <JsConf/>
+            <Element id='schedule'><div className='ScheduleWrapper'>
+                <img id='' src='/Schedule.png' alt='Schedule' className='Schedule' />
+            </div>
+            </Element>
             <Element id='jedies' name={'jedies'}>
                 <Jedies />
             </Element>
@@ -45,7 +51,7 @@ const Home = () => {
             <Element name={'faq'}>
                 <Faq/>
             </Element>
-
+            <Background />
         </div>
     );
 };

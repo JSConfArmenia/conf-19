@@ -5,12 +5,19 @@
     box-sizing: border-box;
 }
 
+#root {
+    overflow: hidden;
+    position: relative;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
     padding: 10px;
+    position: initial;
+    overflow: hidden;
 }
 .wrapperHeader {
     margin: 0 auto;
@@ -30,12 +37,33 @@
     width: 100%;
     /* padding: 10px; */
 }
+
+.ScheduleWrapper {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 250px;
+    /* justify-content: center; */
+}
+
+.Schedule {
+    width: 1171px;
+    height: 2242px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .Schedule {
+        width: 900px;
+        height: 1723px;
+    }
+  }
+
 body {
-    background-image: url("images/starry_bg.png");
-    background-repeat: repeat;
     margin: 0;
     background-color: #000000;
-    background-size: contain;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;

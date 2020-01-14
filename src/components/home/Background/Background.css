@@ -1,0 +1,18 @@
+.BackgroundIllustration {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  /* background-image: url('/background-pattern.png'); */
+  background-position-x: center;
+  background-size: contain;
+  background-repeat: repeat-y;
+
+  background-image: url("./starry_bg.png");
+  background-repeat: repeat;
+  background-size: contain;
+
+  transform: translateY(0);
+}

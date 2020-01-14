@@ -11,6 +11,7 @@ import Teamable from '../../../images/sponsors/teamable.svg';
 import FluxTechnologies from '../../../images/sponsors/flux.svg';
 import Ameriabank from '../../../images/sponsors/ameriabank.svg';
 import WebbFontaine from '../../../images/sponsors/webbfontaine.svg';
+import gg from '../../../images/sponsors/gglogo.svg';
 
 const Companies = () => {
     const goldSponsors = [
@@ -27,6 +28,10 @@ const Companies = () => {
         Vineti,
         SuperAnnotate,
     ];
+
+    const partners = [
+        gg,
+    ]
     return (
         <div className="companies-wrapper">
             <img className="companies-heading" alt="Galactic Sponsors" src={GalacticSponsors}/>
@@ -36,7 +41,7 @@ const Companies = () => {
                         Gold Sponsors
                     </div>
                     <div className="company-logos">
-                        {goldSponsors.map(sponsorImg => <img className='gold-logo' src={sponsorImg} alt="gold company"/> )}
+                        {goldSponsors.map(sponsorImg => <img key={sponsorImg} className='gold-logo' src={sponsorImg} alt="gold company"/> )}
                     </div>
                 </div>
                 <div className="silver-companies company-block">
@@ -44,19 +49,18 @@ const Companies = () => {
                         Silver Sponsors
                     </div>
                     <div className="company-logos">
-                        {silverSponsors.map(sponsorImg => <img className='silver-logo' src={sponsorImg} alt="silver company"/> )}
+                        {silverSponsors.map(sponsorImg => <img key={sponsorImg}  className='silver-logo' src={sponsorImg} alt="silver company"/> )}
                     </div>
                 </div>
-                {/*
+                
                 <div className="partners company-block">
                     <div className="company-title">
                         Partners
                     </div>
                     <div className="company-logos">
-                        <img className='partner-logo' src={logo} alt="partner"/>
-                        <img className='partner-logo' src={logo} alt="partner"/>
+                        <img className='partner-logo' src={gg} alt="partner"/>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     );

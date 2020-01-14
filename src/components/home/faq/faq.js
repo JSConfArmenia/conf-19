@@ -20,7 +20,7 @@ const faqs = [
     },
     {
         title: 'How much is the entry-ticket?',
-        text: 'You can request a free invitation until November 23. Later you will need to purchase a ticket to attend the event which will cost $10.'
+        text: 'You can request a free invitation until November 23. Later you will need to purchase a ticket to attend the event which will cost 5000 AMD.'
     },
     {
         title: 'What are the talk topics?',
@@ -28,7 +28,7 @@ const faqs = [
     },
     {
         title: 'When is the deadline for registration?',
-        text: 'The deadline for the free registration is November 23, 2019.'
+        text: 'The deadline for the free registration is November 23, 2019. Later you will need to purchase a ticket to attend the event.'
     },
     {
         title: 'What is the conference language?',
@@ -44,7 +44,7 @@ const faqs = [
     },
     {
         title: 'How to join the team?',
-        text: 'We appreciate that you want to help us to make big things happen but the application for JSConfAM19 volunteers is already closed'
+        text: 'We appreciate that you want to help us to make big things happen but the application for JSConfAM19 volunteers is already closed.'
     },
     {
         title: 'Where is it going to be held?',
@@ -52,11 +52,11 @@ const faqs = [
     },
     {
         title: 'Who supports JS Conf Armenia?',
-        text: 'To learn about our Companies and partners, please, <a href="#companies" class="faq-link">click here</a>.'
+        text: 'To learn about our sponsors and partners, please, <a href="#companies" class="faq-link">click here</a>.'
     },
     {
         title: 'What is the conference code of conduct?',
-        text: 'All attendees, speakers, Companies and volunteers at our conference are required to agree with the following <a class="faq-link" href="https://github.com/JSConfArmenia/conf-19/blob/master/CODE_OF_CONDUCT.md" class="faq-link">code of conduct</a>.'
+        text: 'All attendees, speakers, companies and volunteers at our conference are required to agree with the following <a class="faq-link" href="https://github.com/JSConfArmenia/conf-19/blob/master/CODE_OF_CONDUCT.md" class="faq-link">code of conduct</a>.'
     },
 ];
 

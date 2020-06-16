@@ -88,7 +88,7 @@ class Header extends React.Component {
                         </a>
                         <a
                             target='_blank'
-                            href={'https://docs.google.com/forms/d/e/1FAIpQLScINFE818lItuC2Bdf0XNIx0TLEwyzyxXE9JxIvatuYcw6_Bg/viewform'} className={'header_button'}>Request an Invite</a>
+                            href={'https://www.youtube.com/playlist?list=PL578TLdGXRcYvBnMMncvZBwx8UgsaELvu'} className={'header_button'}>View Recordings</a>
                     </div>
                 </div>
             </div>

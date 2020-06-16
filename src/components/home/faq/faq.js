@@ -7,36 +7,21 @@ const faqs = [
         title: 'What is JS Conf Armenia?',
         text: 'JS Conf Armenia is the biggest JavaScript conference in the region that brings together 1000+ JavaScript developers to discuss JS and have fun.'
     },
-
-    {
-        title: 'How to participate?',
-        text: 'The entry of JS Conf Armenia 2019 is invitation-only so to\n' +
-            '                        request your invite please <a href="https://docs.google.com/forms/d/1QRcGKBumvxd1Pt07GGp39pD9AilxoSGQaAd4535hqME/edit" class="faq-link">click here</a>.'
-    },
-
     {
         title: 'Who are the speakers?',
         text: 'To see the confirmed speakers list, please <a href="#jedies" class="faq-link">click here</a>.'
-    },
-    {
-        title: 'How much is the entry-ticket?',
-        text: 'You can request a free invitation until November 23. Later you will need to purchase a ticket to attend the event which will cost 5000 AMD.'
     },
     {
         title: 'What are the talk topics?',
         text: 'The talk topics will be announced soon.'
     },
     {
-        title: 'When is the deadline for registration?',
-        text: 'The deadline for the free registration is November 23, 2019. Later you will need to purchase a ticket to attend the event.'
-    },
-    {
         title: 'What is the conference language?',
         text: 'The conference will have talks in Armenian, English and Russian, depending on the speaker.'
     },
     {
-        title: 'Who are behind the JS Conf Armenia?',
-        text: 'To see the JS Conf Armenia team, please, <a href="#team" class="faq-link"> click here</a>.'
+        title: 'Who are behind JS Conf Armenia?',
+        text: 'To see the JS Conf Armenia team, please, <a href="#team" class="faq-link">click here</a>.'
     },
     {
         title: 'When is it going to take place?',
